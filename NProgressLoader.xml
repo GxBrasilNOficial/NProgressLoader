@@ -1,0 +1,893 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExportFile>
+  <KMW>
+    <MajorVersion>4</MajorVersion>
+    <MinorVersion>0</MinorVersion>
+    <Build>163677</Build>
+  </KMW>
+  <Source kb="edc75a5e-f487-47dc-99b5-5632fc8bf858" username="AVELLFELIPE\felip" UNCPath="\\AVELLFELIPE\E$\Dev\Projetos\Pessoal\Extensibility">
+    <Version guid="9ca4f18d-4877-4921-b7e4-d064c5ae2aa9" name="Extensibility" />
+  </Source>
+  <Objects>
+    <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T15:26:30.0000000Z" checksum="3ca668449d385f0dd10bf1890c2b801e" fullyQualifiedName="nProgressExample" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="e90a8eef-966f-4125-b789-eb16d29387c6" name="nProgressExample" type="00000000-0000-0000-0000-000000000008" description="n Progress Example">
+      <Properties><Property><Name>Name</Name><Value>nProgressExample</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="4RSISTEMAS\davi.alves" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T15:02:50.0000000Z" checksum="609444cb547673f50076f1379e0c0b3b" fullyQualifiedName="Painel2" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="a5b14f82-e5f2-495a-a521-30da8968dbe4" name="Painel2" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Painel2" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
+      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><action controlName="Retornarparaahome" onClickEvent="'Retornar para a home'" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+        <Source><![CDATA[Event 'Retornar para a home'
+	
+	Painel1.Link()
+	
+EndEvent
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Properties />
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>Painel2</Value></Property><Property><Name>MasterPage</Name><Value>masterLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T17:19:48.0000000Z" checksum="e996556376e977a9bc42b34fba046e20" fullyQualifiedName="Painel1" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="d90d575a-d33e-4db9-b842-a7935626551c" name="Painel1" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Painel1" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
+      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><textblock controlName="Textblock1" caption="Para melhor visualizar o funcionamento do loader aperte F12 vá até a aba Network e altere de No throttling para Slow 3G." /></cell></row><row><cell><action controlName="ChamarTela" onClickEvent="'Chamar Tela'" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+        <Source><![CDATA[Event 'Chamar Tela'
+	
+	Painel2.Link()
+	
+EndEvent
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>Painel1</Value></Property><Property><Name>MasterPage</Name><Value>masterLoader</Value></Property><Property><Name>IsMain</Name><Value>True</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:15:04.0000000Z" checksum="4a4b5a42de53fd6446faa8af12f7e0a5" fullyQualifiedName="masterLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="6e8f52c0-59be-49f5-ab4a-dc77f5717244" name="masterLoader" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="master Loader" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
+      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><table controlName="Table1" class="ContainerFluid HeaderContainer"><row><cell><data attribute="&amp;TipoDeLoader" labelWidth="10%" /></cell></row><row><cell><data attribute="&amp;EstiloDoLoader" labelWidth="10%" /></cell></row></table></cell></row><row><cell><contentholder controlName="ContHolder1" /></cell></row><row><cell><ucw gxControlType="-1710903878" PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ControlName&lt;/Name&gt;&lt;Value&gt;ucNProgress1&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;loaderConfig&lt;/Name&gt;&lt;Value&gt;&amp;amp;sdtNProgressConfigs&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+        <Source><![CDATA[Event Start
+	
+	If not &WebSession.Get('TipoDoLoader').IsEmpty()
+		&TipoDeLoader.FromString(&WebSession.Get('TipoDoLoader'))
+	Else
+		&TipoDeLoader = dmLoaderType.PROGRESSBAR
+	EndIf
+
+	
+	If not &WebSession.Get('EstiloDoLoader').IsEmpty()
+		
+		&Estilo = &WebSession.Get('EstiloDoLoader').ToNumeric()
+		&EstiloDoLoader.FromString(&WebSession.Get('EstiloDoLoader'))
+	Else
+		&EstiloDoLoader = 1
+	EndIf
+
+	if &TipoDeLoader <> dmLoaderType.PROGRESSBAR
+		&EstiloDoLoader.Visible = True
+	Else
+		&EstiloDoLoader.Visible = False
+	EndIf
+
+	ucNProgress1.loaderType = &TipoDeLoader
+	&sdtNProgressConfigs.ScreenLoader.loaderStyle = &EstiloDoLoader
+	
+	Log.Debug(&sdtNProgressConfigs.ToJson(), 'log sdt nprogress')	
+EndEvent
+
+Event &EstiloDoLoader.ControlValueChanged
+	
+	&sdtNProgressConfigs.ScreenLoader.loaderStyle = &EstiloDoLoader
+	
+	&WebSession.set('EstiloDoLoader',&EstiloDoLoader.ToString())
+	
+EndEvent
+
+Event &TipoDeLoader.ControlValueChanged
+	
+	
+	
+	ucNProgress1.loaderType = &TipoDeLoader
+	
+	if &TipoDeLoader <> dmLoaderType.PROGRESSBAR
+		&EstiloDoLoader.Visible = True
+	Else
+		&EstiloDoLoader.Visible = False
+	EndIf
+	
+	&WebSession.set('TipoDoLoader', &TipoDeLoader.ToString())
+	
+EndEvent
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="sdtNProgressConfigs">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>sdtNProgressConfigs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:sdtNProgressConfigs, nProgressLoader</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TipoDeLoader">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TipoDeLoader</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:dmLoaderType, nProgressLoader</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property></Properties>
+        </Variable>
+        <Variable Name="EstiloDoLoader">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>EstiloDoLoader</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Gradiente:0,Disco:1,Disco Duplo:2,Pulsos:3,Cubo:4,Moderno:5</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WebSession">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Estilo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Estilo</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>masterLoader</Value></Property><Property><Name>WEB_COMP</Name><Value>Master</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T21:15:06.0000000Z" checksum="5815952e8679bc841e02cb2766841406" fullyQualifiedName="nProgressLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" name="nProgressLoader" type="c88fffcd-b6f8-0000-8fec-00b5497e2117" description="n Progress Loader">
+      <Part type="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="a5e6a251-2df0-44d8-adab-1da237574326">
+        <Properties />
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>PackagedModuleName</Name><Value>nProgressLoader</Value></Property><Property><Name>ModuleVersion</Name><Value>1.0.10</Value></Property><Property><Name>ModuleDescription</Name><Value>- Loader com 2 opções visuais 
+  -&gt; Loader minimalista no topo da tela
+  -&gt; Loader com efeito visual no centro da tela(com vários estilos)
+- Funcionamento respeitando as fases da requisição do genexus</Value></Property><Property><Name>ModuleAuthor</Name><Value>Developer</Value></Property><Property><Name>ModuleLicenseUrl</Name><Value /></Property><Property><Name>ModuleProjectUrl</Name><Value /></Property><Property><Name>ModuleServerUrl</Name><Value /></Property><Property><Name>ModuleTags</Name><Value /></Property><Property><Name>ModuleOwner</Name><Value>Genexus Brasil</Value></Property><Property><Name>ModuleResources</Name><Value /></Property><Property><Name>Name</Name><Value>nProgressLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:33:51.0000000Z" checksum="efad15ab5b8d06395b917bc67841d291" fullyQualifiedName="nProgressLoader.ucNProgress" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="c17eeef8-587b-43d1-80f3-0346c6779793" name="ucNProgress" type="562f4793-aabe-449f-8821-fc77e550698e" description="uc NProgress" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+      <Part type="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
+        <Source><![CDATA[<!--<script src='http://localhost/TransparenciaSiaficCSharpSQL/UserControls/nprogress.js'></script>!-->
+
+<style>
+ /*<link rel='stylesheet' href='https://unpkg.com/nprogress@0.2.0/nprogress.css'/>*/
+	/* Make clicks pass-through */
+	#nprogress {
+		pointer-events: none;
+	}
+
+	#nprogress .bar {
+	/*background: #01469d;*/
+		background:{{loaderColor}};
+		position: fixed;
+		z-index: 1031;
+		top: 0;
+		left: 0;
+		
+		width: 100%;
+		height: 2px;
+	}
+	
+
+	/* Fancy blur effect */
+	#nprogress .peg {
+		display: block;
+		position: absolute;
+		right: 0px;
+		width: 100px;
+		height: 100%;
+		box-shadow: 0 0 10px {{loaderColor}}, 0 0 5px {{loaderColor}};
+		opacity: 1.0;
+	
+		-webkit-transform: rotate(3deg) translate(0px, -4px);
+			-ms-transform: rotate(3deg) translate(0px, -4px);
+				transform: rotate(3deg) translate(0px, -4px);
+	}
+
+	/* Remove these to get rid of the spinner */
+	#nprogress .spinner {
+		display: block;
+		position: fixed;
+		z-index: 1031;
+		top: 15px;
+		right: 15px;
+	}
+
+	#nprogress .spinner-icon {
+		width: 18px;
+		height: 18px;
+		box-sizing: border-box;
+	
+		border: solid 2px transparent;
+		border-top-color: {{loaderColor}};
+		border-left-color: {{loaderColor}};
+		border-radius: 50%;
+		
+		-webkit-animation: nprogress-spinner 400ms linear infinite;
+				animation: nprogress-spinner 400ms linear infinite;
+	}
+	
+	.nprogress-custom-parent {
+		overflow: hidden;
+		position: relative;
+	}
+	
+	.nprogress-custom-parent #nprogress .spinner,
+	.nprogress-custom-parent #nprogress .bar {
+		position: absolute;
+	}
+	
+	@-webkit-keyframes nprogress-spinner {
+		0%   { -webkit-transform: rotate(0deg); }
+		100% { -webkit-transform: rotate(360deg); }
+	}
+	
+	@keyframes nprogress-spinner {
+		0%   { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+	}
+	
+	
+	/* SCREEN LOADER */
+     .PopupBorder[style*="visibility: visible"]+.loader {
+    		display: none
+	}
+
+	.loader {
+		position: fixed;
+		top: calc(50% - {{loaderSize}});
+		left: calc(50% - {{loaderSize}});
+		z-index: 1001
+	}
+	
+	.loader>div {
+		position: relative
+	}
+	
+	.disc {
+		border-radius: 50%;
+		width: {{loaderSize}};
+		height: {{loaderSize}};
+		border: 25px solid {{loaderColor}};
+		border-top-color: #A9AFBB;
+		animation: spin 1s infinite linear
+	}
+	
+	.disc-double {
+		border-style: double
+	}
+	
+	.gradient {
+		width: {{loaderSize}};
+		height: {{loaderSize}};
+		position: relative
+	}
+	
+	.gradient-img {
+		top: 0;
+		width: 100%;
+		height: 100%;
+		display: block;
+		position: absolute;
+	}
+	
+	.gradient-spin {
+	
+		box-sizing: border-box;
+		display: block;
+		position: absolute;
+		width: {{loaderSize}};
+		height: {{loaderSize}};
+		margin: 8px;
+		border: 8px solid {{loaderColor}};
+		border-radius: 50%;
+		animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+		border-color: {{loaderColor}} transparent transparent transparent;
+	}
+	
+	.pulse {
+		position: relative;
+		width: calc({{loaderSize}} * 0.20);
+		height: {{loaderSize}};
+		animation: pulse 1.25s infinite;
+		animation-delay: .41667s;
+		margin: 0 40px
+	}
+	
+	.pulse:before,
+	.pulse:after {
+		content: "";
+		position: absolute;
+		display: block;
+		width: calc({{loaderSize}} * 0.20);
+		height: calc({{loaderSize}} * 0.75);
+		top: 50%;
+		transform: translateY(-50%);
+		animation: pulse 1.25s infinite
+	}
+	
+	.pulse:before {
+		left: -40px
+	}
+	
+	.pulse:after {
+		left: calc({{loaderSize}} * 0.40);
+		animation-delay: .83333s
+	}
+	
+	.cube {
+		width: {{loaderSize}};
+		height: {{loaderSize}};
+		margin: 0 auto;
+		position: relative;
+		transform: rotateZ(45deg)
+	}
+	
+	.cube-slice {
+		position: relative;
+		transform: rotateZ(45deg);
+		float: left;
+		width: 50%;
+		height: 50%;
+		position: relative;
+		transform: scale(1.1)
+	}
+	
+	.cube-slice:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: {{loaderColor}};
+		animation: cube-fold 2.76s infinite linear both;
+		transform-origin: 100% 100%
+	}
+	
+	.cube-slice.slice2 {
+		transform: scale(1.1) rotateZ(90deg)
+	}
+	
+	.cube-slice.slice2:before {
+		animation-delay: 0.35s
+	}
+	
+	.cube-slice.slice3 {
+		transform: scale(1.1) rotateZ(180deg)
+	}
+	
+	.cube-slice.slice3:before {
+		animation-delay: 0.69s
+	}
+	
+	.cube-slice.slice4 {
+		transform: scale(1.1) rotateZ(270deg)
+	}
+	
+	.cube-slice.slice4:before {
+		animation-delay: 1.04s
+	}
+	
+	.modern {
+		left: calc(50% - 50px);
+		width: {{loaderSize}};
+		height: {{loaderSize}};
+		border-radius: 50%;
+		perspective: 780px
+	}
+	
+	.modern-slice {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+		border-radius: 50%;
+		border-style: solid;
+		border-color: {{loaderColor}};
+		border-width: 0
+	}
+	
+	.modern-slice.slice1 {
+		left: 0%;
+		top: 0%;
+		animation: modern-rotate-one 1.25s linear infinite;
+		border-bottom-width: 5px
+	}
+	
+	.modern-slice.slice2 {
+		right: 0%;
+		top: 0%;
+		animation: modern-rotate-two 1.25s linear infinite;
+		border-right-width: 5px
+	}
+	
+	.modern-slice.slice3 {
+		right: 0%;
+		bottom: 0%;
+		animation: modern-rotate-three 1.25s linear infinite;
+		border-top-width: 5px
+	}
+	
+	@keyframes spin {
+		0% {
+			transform: rotate(0deg)
+		}
+	
+		100% {
+			transform: rotate(360deg)
+		}
+	}
+	
+	@keyframes pulse {
+		50% {
+			background: {{loaderColor}};
+		}
+	}
+	
+	@keyframes cube-fold {
+	
+		0%,
+		10% {
+			transform: perspective(136px) rotateX(-180deg);
+			opacity: 0
+		}
+	
+		25%,
+		75% {
+			transform: perspective(136px) rotateX(0deg);
+			opacity: 1
+		}
+	
+		90%,
+		100% {
+			transform: perspective(136px) rotateY(180deg);
+			opacity: 0
+		}
+	}
+	
+	@keyframes modern-rotate-one {
+		0% {
+			transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg)
+		}
+	
+		100% {
+			transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg)
+		}
+	}
+	
+	@keyframes modern-rotate-two {
+		0% {
+			transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg)
+		}
+	
+		100% {
+			transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg)
+		}
+	}
+	
+	@keyframes modern-rotate-three {
+		0% {
+			transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg)
+		}
+	
+		100% {
+			transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg)
+		}
+	}
+	
+	
+	@keyframes lds-ring {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+	
+	/* SCREEN LOADER */
+	
+</style>
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="8e9e4a7c-a4d3-4c36-8e8e-fb6702402f63">
+        <Source><![CDATA[<Definition auto="false">
+
+	<Property Name="loaderConfig" Type="sdt"/>
+	
+	<Property Name="loaderType"  type="enum" Default="1">
+		<Value id="1">Progress Bar</Value>
+		<Value id="2">Screen Loader</Value>	
+		<Value id="3">Both</Value>	
+	</Property>
+    
+    
+	<script name="_getStaticPath">	
+		const gxStaticDir = gx.staticDirectory.substring(1, gx.staticDirectory.length)
+		const staticDir = (gxStaticDir !== ""? "../":"") + gxStaticDir		
+		return staticDir + (staticDir !== ""? "/":"");			
+	</script>
+	
+	<script name="_loadScriptByUrl" parameters="url">	
+		const scriptUrl = location.protocol + "//" + location.host + "/" + gx.basePath + "/" + gx.staticDirectory + url//"Resources/TinyMCE/scripts/tinymce.min.js"
+		$.ajax({
+			async: false,
+			url: scriptUrl,
+			dataType: "script"
+		});	
+	</script>
+	
+	<script name="before" When="BeforeShow">
+		if (!this.IsPostBack){
+			
+			if (!window.nprogress){
+				this._loadScriptByUrl("Resources/NProgressLoader/nprogress.js")				
+				
+				this.nprogress = NProgress;
+			}
+		}	
+	</script>
+	
+	<script name="after" When="AfterShow">
+	
+		const myThis 			= this;
+		myThis.isDone 			= false;
+		myThis.TotalProgress 	= 0;
+		myThis.Progress 		= 0;
+		
+		let loaderConfig = myThis.loaderConfig;
+		myThis.loaderSize = loaderConfig.ScreenLoader.loaderSize;
+		
+		//NProgress.configure({ showSpinner: loaderConfig.showSpinner });
+		//SETA AS CONFIGURAÇÕES DO NPROGRESS DE ACORDO COM OS VALORES QUE VEM DO SDT DE CONFIGURAÇÕES{sdtNProgressConfigs}
+		if(myThis.loaderType == "1" || "3"){
+			NProgress.settings = {...loaderConfig.ProgressBar}
+		};
+		
+		
+		/* SCREEN LOADER */
+		
+		/*LOADER MODEL*/
+		
+		const modelosLoaderMask = ['<div class="gradient"><div class="gradient-img"></div><div class="gradient-spin"></div></div>',
+					   			   '<div class="disc"></div>',
+					   			   '<div class="disc disc-double"></div>',
+					   			   '<div class="pulse"></div>',
+					   			   '<div class="cube"><div class="cube-slice slice1"></div><div class="cube-slice slice2"></div><div class="cube-slice slice4"></div><div class="cube-slice slice3"></div></div>',
+					   			   '<div class="modern"><div class="modern-slice slice1"></div><div class="modern-slice slice2"></div><div class="modern-slice slice3"></div></div>'
+		]
+		
+		/*DOMNodeInserted*/
+		document.addEventListener("DOMNodeInserted", (e) => {
+			
+			var hasClass 	= e.target.classList
+			if(typeof hasClass !== "undefined" && e.target.classList.contains("gx-mask")){
+				if (!document.querySelector(".loader")){
+					document.body.innerHTML += `<div class="loader"> ${modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]}</div>`
+				};
+			};
+		});
+	
+		/*DOMNodeRemoved*/	
+		document.addEventListener("DOMNodeRemoved", (e) => {
+			
+			var hasClass 	= e.target.classList
+			if(typeof hasClass !== "undefined" && e.target.classList.contains("gx-mask")){
+				if (document.querySelector(".loader")){					
+					document.querySelector(".loader").remove()
+				}
+			};
+		});
+
+		/* SCREEN LOADER */
+
+
+		function loadComplete(){
+			NProgress.done(true);
+			NProgress.remove();
+			myThis.TotalProgress = 0;
+			myThis.Progress = 0;
+		}
+
+/*		-- 5 PASSOS DO INÍCIO DA REQUISIÇÃO ATÉ O CARREGAMENTO DA PÁGINA		*/
+		//STEP 1
+		gx.spa.addObserver('onbeforesend', this, ()=>{
+			switch (myThis.loaderType){
+				case "1":
+					//PROGRESSBAR
+					NProgress.start();
+					break;
+				case "2":
+					//SCREENLOADER
+					if (!document.querySelector(".loader")){
+						document.body.innerHTML += `<div class="loader"> ${modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]}</div>`
+					};
+				break;
+				default:
+					//AMBOS 
+					NProgress.start();
+					if (!document.querySelector(".loader")){
+						document.body.innerHTML += `<div class="loader"> ${modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]}</div>`
+					};
+			};
+		}, {single:false});
+	
+		//STEP 2
+		gx.spa.addObserver('onnavigatestart', this, ()=>{
+			if(myThis.loaderType == '1'){myThis.Progress = 0.3};
+		}, {single:false});
+	
+		//STEP 3
+		gx.spa.addObserver('onbeforeprocessresponse', this, ()=>{
+			if(myThis.loaderType == '1'){myThis.Progress = 0.3};
+		}, {single:false});
+	
+		//STEP 4
+		gx.spa.addObserver('oncontentreplace', this, ()=>{
+			if(myThis.loaderType == '1'){myThis.Progress = 0.4};
+		}, {single:false});
+	
+		//STEP 5
+		gx.spa.addObserver('onnavigate', this, ()=>{
+			switch (myThis.loaderType){
+				case "1":
+					//PROGRESSBAR
+					myThis.Progress = 1;
+					break;
+				case "2":
+					//SCREENLOADER
+					if (document.querySelector(".loader")){					
+						document.querySelector(".loader").remove()
+					};
+				break;
+				default:
+					//AMBOS 
+					myThis.Progress = 1;
+					if (document.querySelector(".loader")){					
+						document.querySelector(".loader").remove()
+					};
+			};
+		}, {single:false});
+	
+		const callback = () => {
+			if (myThis.Progress && myThis.Progress != 0){
+				myThis.TotalProgress += myThis.Progress
+				NProgress.inc(myThis.Progress)
+				myThis.Progress 		= 0;
+			}
+		}
+	
+		if(myThis.loaderType == "1" || "3"){
+			function waitLoaderComplete(){
+				setTimeout(() => {
+					if (myThis.TotalProgress >= 1){
+						loadComplete();
+					}else{
+						callback()
+						waitLoaderComplete()
+					}
+				}, 300)
+			};
+		
+			if (myThis.IsPostBack){
+				//eventos genexus
+				waitLoaderComplete()	
+				
+			}else{
+				//eventos de browser.
+				NProgress.start();
+				NProgress.inc(0.9);
+				
+				setTimeout(()=>{
+					NProgress.done();
+					NProgress.remove();
+				},1000)
+			}
+		}
+	</script>
+	
+	<script name="InsertLoader">
+	
+		if (!document.querySelector(".loader")){
+				document.body.innerHTML += `<div class="loader"> ${modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]}</div>`		
+		};
+	
+	</script>
+	
+	<script name="RemoveLoader">
+		if (document.querySelector(".loader")){					
+				document.querySelector(".loader").remove()
+		}	
+	</script>
+	
+</Definition>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>ucNProgress</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T17:17:26.0000000Z" checksum="35fb7918713445c58ebdd375cbc88857" fullyQualifiedName="nProgressLoader.nprogress_js" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="edcdc9c7-6585-4541-aa0b-66132d0ec6db" name="nprogress_js" type="1132ac08-290f-4fd1-bd18-64777b7329d1" description="nprogress_js" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+      <Part type="9b6155f9-f286-4ed5-bd15-67672e8ea320">
+        <Data><base64Binary>LyogTlByb2dyZXNzLCAoYykgMjAxMywgMjAxNCBSaWNvIFN0YS4gQ3J1eiAtIGh0dHA6Ly9yaWNvc3RhY3J1ei5jb20vbnByb2dyZXNzCiAqIEBsaWNlbnNlIE1JVCAqLwooZnVuY3Rpb24obix0KXt0eXBlb2YgZGVmaW5lPT0iZnVuY3Rpb24iJiZkZWZpbmUuYW1kP2RlZmluZSh0KTp0eXBlb2YgZXhwb3J0cz09Im9iamVjdCI/bW9kdWxlLmV4cG9ydHM9dCgpOm4uTlByb2dyZXNzPXQoKX0pKHRoaXMsZnVuY3Rpb24oKXtmdW5jdGlvbiB1KG4sdCxpKXtyZXR1cm4gbjx0P3Q6bj5pP2k6bn1mdW5jdGlvbiByKG4pe3JldHVybigtMStuKSoxMDB9ZnVuY3Rpb24gbChuLGksdSl7dmFyIGY7cmV0dXJuIGY9dC5wb3NpdGlvblVzaW5nPT09InRyYW5zbGF0ZTNkIj97dHJhbnNmb3JtOiJ0cmFuc2xhdGUzZCgiK3IobikrIiUsMCwwKSJ9OnQucG9zaXRpb25Vc2luZz09PSJ0cmFuc2xhdGUiP3t0cmFuc2Zvcm06InRyYW5zbGF0ZSgiK3IobikrIiUsMCkifTp7Im1hcmdpbi1sZWZ0IjpyKG4pKyIlIn0sZi50cmFuc2l0aW9uPSJhbGwgIitpKyJtcyAiK3UsZn1mdW5jdGlvbiBlKG4sdCl7dmFyIGk9dHlwZW9mIG49PSJzdHJpbmciP246ZihuKTtyZXR1cm4gaS5pbmRleE9mKCIgIit0KyIgIik+PTB9ZnVuY3Rpb24gbyhuLHQpe3ZhciBpPWYobikscj1pK3Q7ZShpLHQpfHwobi5jbGFzc05hbWU9ci5zdWJzdHJpbmcoMSkpfWZ1bmN0aW9uIHMobix0KXt2YXIgcj1mKG4pLGk7ZShuLHQpJiYoaT1yLnJlcGxhY2UoIiAiK3QrIiAiLCIgIiksbi5jbGFzc05hbWU9aS5zdWJzdHJpbmcoMSxpLmxlbmd0aC0xKSl9ZnVuY3Rpb24gZihuKXtyZXR1cm4oIiAiKyhuLmNsYXNzTmFtZXx8IiIpKyIgIikucmVwbGFjZSgvXHMrL2dpLCIgIil9ZnVuY3Rpb24gaChuKXtuJiZuLnBhcmVudE5vZGUmJm4ucGFyZW50Tm9kZS5yZW1vdmVDaGlsZChuKX12YXIgbj17fSx0LGMsaTtyZXR1cm4gbi52ZXJzaW9uPSIwLjIuMCIsdD1uLnNldHRpbmdzPXttaW5pbXVtOi4wOCxlYXNpbmc6ImVhc2UiLHBvc2l0aW9uVXNpbmc6IiIsc3BlZWQ6MjAwLHRyaWNrbGU6ITAsdHJpY2tsZVJhdGU6LjAyLHRyaWNrbGVTcGVlZDo4MDAsc2hvd1NwaW5uZXI6ITAsYmFyU2VsZWN0b3I6J1tyb2xlPSJiYXIiXScsc3Bpbm5lclNlbGVjdG9yOidbcm9sZT0ic3Bpbm5lciJdJyxwYXJlbnQ6ImJvZHkiLHRlbXBsYXRlOic8ZGl2IGNsYXNzPSJiYXIiIHJvbGU9ImJhciI+PGRpdiBjbGFzcz0icGVnIj48XC9kaXY+PFwvZGl2PjxkaXYgY2xhc3M9InNwaW5uZXIiIHJvbGU9InNwaW5uZXIiPjxkaXYgY2xhc3M9InNwaW5uZXItaWNvbiI+PFwvZGl2PjxcL2Rpdj4nfSxuLmNvbmZpZ3VyZT1mdW5jdGlvbihuKXt2YXIgaSxyO2ZvcihpIGluIG4pcj1uW2ldLHIhPT11bmRlZmluZWQmJm4uaGFzT3duUHJvcGVydHkoaSkmJih0W2ldPXIpO3JldHVybiB0aGlzfSxuLnN0YXR1cz1udWxsLG4uc2V0PWZ1bmN0aW9uKHIpe3ZhciBvPW4uaXNTdGFydGVkKCk7cj11KHIsdC5taW5pbXVtLDEpO24uc3RhdHVzPXI9PT0xP251bGw6cjt2YXIgZj1uLnJlbmRlcighbykscz1mLnF1ZXJ5U2VsZWN0b3IodC5iYXJTZWxlY3RvciksZT10LnNwZWVkLGg9dC5lYXNpbmc7cmV0dXJuIGYub2Zmc2V0V2lkdGgsYyhmdW5jdGlvbih1KXt0LnBvc2l0aW9uVXNpbmc9PT0iIiYmKHQucG9zaXRpb25Vc2luZz1uLmdldFBvc2l0aW9uaW5nQ1NTKCkpO2kocyxsKHIsZSxoKSk7cj09PTE/KGkoZix7dHJhbnNpdGlvbjoibm9uZSIsb3BhY2l0eToxfSksZi5vZmZzZXRXaWR0aCxzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7aShmLHt0cmFuc2l0aW9uOiJhbGwgIitlKyJtcyBsaW5lYXIiLG9wYWNpdHk6MH0pO3NldFRpbWVvdXQoZnVuY3Rpb24oKXtuLnJlbW92ZSgpO3UoKX0sZSl9LGUpKTpzZXRUaW1lb3V0KHUsZSl9KSx0aGlzfSxuLmlzU3RhcnRlZD1mdW5jdGlvbigpe3JldHVybiB0eXBlb2Ygbi5zdGF0dXM9PSJudW1iZXIifSxuLnN0YXJ0PWZ1bmN0aW9uKCl7bi5zdGF0dXN8fG4uc2V0KDApO3ZhciBpPWZ1bmN0aW9uKCl7c2V0VGltZW91dChmdW5jdGlvbigpe24uc3RhdHVzJiYobi50cmlja2xlKCksaSgpKX0sdC50cmlja2xlU3BlZWQpfTtyZXR1cm4gdC50cmlja2xlJiZpKCksdGhpc30sbi5kb25lPWZ1bmN0aW9uKHQpe3JldHVybiF0JiYhbi5zdGF0dXM/dGhpczpuLmluYyguMysuNSpNYXRoLnJhbmRvbSgpKS5zZXQoMSl9LG4uaW5jPWZ1bmN0aW9uKHQpe3ZhciBpPW4uc3RhdHVzO3JldHVybiBpPyh0eXBlb2YgdCE9Im51bWJlciImJih0PSgxLWkpKnUoTWF0aC5yYW5kb20oKSppLC4xLC45NSkpLGk9dShpK3QsMCwuOTk0KSxuLnNldChpKSk6bi5zdGFydCgpfSxuLnRyaWNrbGU9ZnVuY3Rpb24oKXtyZXR1cm4gbi5pbmMoTWF0aC5yYW5kb20oKSp0LnRyaWNrbGVSYXRlKX0sZnVuY3Rpb24oKXt2YXIgaT0wLHQ9MDtuLnByb21pc2U9ZnVuY3Rpb24ocil7cmV0dXJuIXJ8fHIuc3RhdGUoKT09PSJyZXNvbHZlZCI/dGhpczoodD09PTAmJm4uc3RhcnQoKSxpKyssdCsrLHIuYWx3YXlzKGZ1bmN0aW9uKCl7dC0tO3Q9PT0wPyhpPTAsbi5kb25lKCkpOm4uc2V0KChpLXQpL2kpfSksdGhpcyl9fSgpLG4ucmVuZGVyPWZ1bmN0aW9uKHUpe3ZhciBmO2lmKG4uaXNSZW5kZXJlZCgpKXJldHVybiBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgibnByb2dyZXNzIik7byhkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQsIm5wcm9ncmVzcy1idXN5Iik7Zj1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJkaXYiKTtmLmlkPSJucHJvZ3Jlc3MiO2YuaW5uZXJIVE1MPXQudGVtcGxhdGU7dmFyIGM9Zi5xdWVyeVNlbGVjdG9yKHQuYmFyU2VsZWN0b3IpLGw9dT8iLTEwMCI6cihuLnN0YXR1c3x8MCksZT1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKHQucGFyZW50KSxzO3JldHVybiBpKGMse3RyYW5zaXRpb246ImFsbCAwIGxpbmVhciIsdHJhbnNmb3JtOiJ0cmFuc2xhdGUzZCgiK2wrIiUsMCwwKSJ9KSx0LnNob3dTcGlubmVyfHwocz1mLnF1ZXJ5U2VsZWN0b3IodC5zcGlubmVyU2VsZWN0b3IpLHMmJmgocykpLGUhPWRvY3VtZW50LmJvZHkmJm8oZSwibnByb2dyZXNzLWN1c3RvbS1wYXJlbnQiKSxlLmFwcGVuZENoaWxkKGYpLGZ9LG4ucmVtb3ZlPWZ1bmN0aW9uKCl7cyhkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQsIm5wcm9ncmVzcy1idXN5Iik7cyhkb2N1bWVudC5xdWVyeVNlbGVjdG9yKHQucGFyZW50KSwibnByb2dyZXNzLWN1c3RvbS1wYXJlbnQiKTt2YXIgbj1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgibnByb2dyZXNzIik7biYmaChuKX0sbi5pc1JlbmRlcmVkPWZ1bmN0aW9uKCl7cmV0dXJuISFkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgibnByb2dyZXNzIil9LG4uZ2V0UG9zaXRpb25pbmdDU1M9ZnVuY3Rpb24oKXt2YXIgbj1kb2N1bWVudC5ib2R5LnN0eWxlLHQ9IldlYmtpdFRyYW5zZm9ybSJpbiBuPyJXZWJraXQiOiJNb3pUcmFuc2Zvcm0iaW4gbj8iTW96IjoibXNUcmFuc2Zvcm0iaW4gbj8ibXMiOiJPVHJhbnNmb3JtImluIG4/Ik8iOiIiO3JldHVybiB0KyJQZXJzcGVjdGl2ZSJpbiBuPyJ0cmFuc2xhdGUzZCI6dCsiVHJhbnNmb3JtImluIG4/InRyYW5zbGF0ZSI6Im1hcmdpbiJ9LGM9ZnVuY3Rpb24oKXtmdW5jdGlvbiB0KCl7dmFyIGk9bi5zaGlmdCgpO2kmJmkodCl9dmFyIG49W107cmV0dXJuIGZ1bmN0aW9uKGkpe24ucHVzaChpKTtuLmxlbmd0aD09MSYmdCgpfX0oKSxpPWZ1bmN0aW9uKCl7ZnVuY3Rpb24gcihuKXtyZXR1cm4gbi5yZXBsYWNlKC9eLW1zLS8sIm1zLSIpLnJlcGxhY2UoLy0oW1xkYS16XSkvZ2ksZnVuY3Rpb24obix0KXtyZXR1cm4gdC50b1VwcGVyQ2FzZSgpfSl9ZnVuY3Rpb24gdShuKXt2YXIgdT1kb2N1bWVudC5ib2R5LnN0eWxlLGksZixyO2lmKG4gaW4gdSlyZXR1cm4gbjtmb3IoaT10Lmxlbmd0aCxmPW4uY2hhckF0KDApLnRvVXBwZXJDYXNlKCkrbi5zbGljZSgxKTtpLS07KWlmKHI9dFtpXStmLHIgaW4gdSlyZXR1cm4gcjtyZXR1cm4gbn1mdW5jdGlvbiBmKG4pe3JldHVybiBuPXIobiksaVtuXXx8KGlbbl09dShuKSl9ZnVuY3Rpb24gbihuLHQsaSl7dD1mKHQpO24uc3R5bGVbdF09aX12YXIgdD1bIldlYmtpdCIsIk8iLCJNb3oiLCJtcyJdLGk9e307cmV0dXJuIGZ1bmN0aW9uKHQsaSl7dmFyIHU9YXJndW1lbnRzLHIsZjtpZih1Lmxlbmd0aD09Milmb3IociBpbiBpKWY9aVtyXSxmIT09dW5kZWZpbmVkJiZpLmhhc093blByb3BlcnR5KHIpJiZuKHQscixmKTtlbHNlIG4odCx1WzFdLHVbMl0pfX0oKSxufSk=</base64Binary></Data>
+        <Properties><Property><Name>FileName</Name><Value>nprogress.js</Value></Property><Property><Name>FileExtension</Name><Value>.js</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>nprogress_js</Value></Property><Property><Name>Description</Name><Value>nprogress_js</Value></Property><Property><Name>JavaExtract</Name><Value>True</Value></Property><Property><Name>JavaExtractFolder</Name><Value>Resources\NProgressLoader</Value></Property><Property><Name>NetExtract</Name><Value>True</Value></Property><Property><Name>NetExtractFolder</Name><Value>Resources\NProgressLoader</Value></Property><Property><Name>NetCoreExtract</Name><Value>True</Value></Property><Property><Name>NetCoreExtractFolder</Name><Value>Resources\NProgressLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+  </Objects>
+  <Dependencies>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="00000000-0000-0000-0000-000000000008">
+      <Properties Name="Folder" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="c9584656-94b6-4ccd-890f-332d11fc2c25">
+      <Properties Name="Web Panel" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+      <Properties Name="Web Form" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+      <Properties Name="Rules" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+      <Properties Name="Events" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+      <Properties Name="Conditions" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+      <Properties Name="Variables" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+      <Properties Name="Help" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="babf62c5-0111-49e9-a1c3-cc004d90900a">
+      <Properties Name="Documentation" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+      <Properties Name="Module" PackageName="Artech.Architecture" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
+      <Properties Name="Content" PackageName="Artech.Architecture" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="a5e6a251-2df0-44d8-adab-1da237574326">
+      <Properties Name="Diagram" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="562f4793-aabe-449f-8821-fc77e550698e">
+      <Properties Name="User Control" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
+      <Properties Name="Screen Template" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="8e9e4a7c-a4d3-4c36-8e8e-fb6702402f63">
+      <Properties Name="Properties" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="1132ac08-290f-4fd1-bd18-64777b7329d1">
+      <Properties Name="File" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="9b6155f9-f286-4ed5-bd15-67672e8ea320">
+      <Properties Name="Binary Content" PackageName="GenexusBL" />
+    </Reference>
+  </Dependencies>
+  <ObjectsIdentityMapping>
+    <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="Root Module" parent="">
+      <Guid>afa47377-41d5-4ae8-9755-6f53150aa361</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="c804fdbd-7c0b-440d-8527-4316c92649a6" Name="Carmine" parent="">
+      <Guid>c3d9279b-69fb-4f4a-920e-62a13a536d87</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="TextBlock" parent="">
+      <Guid>27607de1-bd65-5b1b-99b8-9db711c42fc6</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="00972a17-9975-449e-aab1-d26165d51393" Name="dmLoaderType" parent="nProgressLoader">
+      <Guid>ce054fbc-6720-4a9c-a75c-1db1f51297a3</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="ecececec-dfe0-4a57-ae8f-c6e31b0dcbc0" Name="Default" parent="">
+      <Guid>454d4638-6bcf-413e-9c97-90729a1ebefb</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Form" parent="">
+      <Guid>d5ef9926-a55b-5eb1-ac93-2211cfeeb656</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Attribute" parent="">
+      <Guid>7f83da99-bc71-5230-bf17-0352ce27c129</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Button" parent="">
+      <Guid>abd2de3e-1c96-5681-b52b-bbe33c0dca49</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Table" parent="">
+      <Guid>784008a4-3c1e-563a-9723-453ef4d698c9</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="c163e562-42c6-4158-ad83-5b21a14cf30e" Name="Log" parent="GeneXus.Common">
+      <Guid>e9e97ad7-95c9-4d3a-a484-5235d071f746</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="Common" parent="GeneXus">
+      <Guid>8c7152cf-0193-4d7c-bf15-efeb057c5398</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="GeneXus" parent="">
+      <Guid>4f454e73-7d8f-4a0f-908a-1a355f3634a5</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="447527b5-9210-4523-898b-5dccb17be60a" Name="sdtNProgressConfigs" parent="nProgressLoader">
+      <Guid>6b7f44b4-c974-4e2b-9a9a-567461deb508</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="HeaderContainer" parent="">
+      <Guid>78856cf2-efc7-452a-bef0-99d82a38b1ee</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="ContainerFluid" parent="">
+      <Guid>2580f39d-9bc9-440e-9017-591594138879</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Container" parent="">
+      <Guid>ba18aa30-6735-4ace-b46c-d35e6805fc08</Guid>
+    </ObjectIdentity>
+  </ObjectsIdentityMapping>
+</ExportFile>
