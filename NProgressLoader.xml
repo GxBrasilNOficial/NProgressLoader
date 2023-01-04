@@ -9,193 +9,6 @@
     <Version guid="9ca4f18d-4877-4921-b7e4-d064c5ae2aa9" name="Extensibility" />
   </Source>
   <Objects>
-    <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T15:26:30.0000000Z" checksum="3ca668449d385f0dd10bf1890c2b801e" fullyQualifiedName="nProgressExample" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="e90a8eef-966f-4125-b789-eb16d29387c6" name="nProgressExample" type="00000000-0000-0000-0000-000000000008" description="n Progress Example">
-      <Properties><Property><Name>Name</Name><Value>nProgressExample</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-    </Object>
-    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="4RSISTEMAS\davi.alves" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T15:02:50.0000000Z" checksum="609444cb547673f50076f1379e0c0b3b" fullyQualifiedName="Painel2" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="a5b14f82-e5f2-495a-a521-30da8968dbe4" name="Painel2" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Painel2" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
-      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
-        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><action controlName="Retornarparaahome" onClickEvent="'Retornar para a home'" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
-        <Source><![CDATA[Event 'Retornar para a home'
-	
-	Painel1.Link()
-	
-EndEvent
-]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
-        <Properties />
-      </Part>
-      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
-        <Help>
-          <HelpItem>
-            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
-            <Content />
-          </HelpItem>
-        </Help>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
-        <Properties />
-      </Part>
-      <Properties><Property><Name>Name</Name><Value>Painel2</Value></Property><Property><Name>MasterPage</Name><Value>masterLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-    </Object>
-    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T17:19:48.0000000Z" checksum="e996556376e977a9bc42b34fba046e20" fullyQualifiedName="Painel1" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="d90d575a-d33e-4db9-b842-a7935626551c" name="Painel1" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Painel1" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
-      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
-        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><textblock controlName="Textblock1" caption="Para melhor visualizar o funcionamento do loader aperte F12 vá até a aba Network e altere de No throttling para Slow 3G." /></cell></row><row><cell><action controlName="ChamarTela" onClickEvent="'Chamar Tela'" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
-        <Source><![CDATA[Event 'Chamar Tela'
-	
-	Painel2.Link()
-	
-EndEvent
-]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
-        <Help>
-          <HelpItem>
-            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
-            <Content />
-          </HelpItem>
-        </Help>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
-        <Properties />
-      </Part>
-      <Properties><Property><Name>Name</Name><Value>Painel1</Value></Property><Property><Name>MasterPage</Name><Value>masterLoader</Value></Property><Property><Name>IsMain</Name><Value>True</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-    </Object>
-    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:15:04.0000000Z" checksum="4a4b5a42de53fd6446faa8af12f7e0a5" fullyQualifiedName="masterLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="6e8f52c0-59be-49f5-ab4a-dc77f5717244" name="masterLoader" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="master Loader" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
-      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
-        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><table controlName="Table1" class="ContainerFluid HeaderContainer"><row><cell><data attribute="&amp;TipoDeLoader" labelWidth="10%" /></cell></row><row><cell><data attribute="&amp;EstiloDoLoader" labelWidth="10%" /></cell></row></table></cell></row><row><cell><contentholder controlName="ContHolder1" /></cell></row><row><cell><ucw gxControlType="-1710903878" PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ControlName&lt;/Name&gt;&lt;Value&gt;ucNProgress1&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;loaderConfig&lt;/Name&gt;&lt;Value&gt;&amp;amp;sdtNProgressConfigs&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
-        <Source><![CDATA[Event Start
-	
-	If not &WebSession.Get('TipoDoLoader').IsEmpty()
-		&TipoDeLoader.FromString(&WebSession.Get('TipoDoLoader'))
-	Else
-		&TipoDeLoader = dmLoaderType.PROGRESSBAR
-	EndIf
-
-	
-	If not &WebSession.Get('EstiloDoLoader').IsEmpty()
-		
-		&Estilo = &WebSession.Get('EstiloDoLoader').ToNumeric()
-		&EstiloDoLoader.FromString(&WebSession.Get('EstiloDoLoader'))
-	Else
-		&EstiloDoLoader = 1
-	EndIf
-
-	if &TipoDeLoader <> dmLoaderType.PROGRESSBAR
-		&EstiloDoLoader.Visible = True
-	Else
-		&EstiloDoLoader.Visible = False
-	EndIf
-
-	ucNProgress1.loaderType = &TipoDeLoader
-	&sdtNProgressConfigs.ScreenLoader.loaderStyle = &EstiloDoLoader
-	
-	Log.Debug(&sdtNProgressConfigs.ToJson(), 'log sdt nprogress')	
-EndEvent
-
-Event &EstiloDoLoader.ControlValueChanged
-	
-	&sdtNProgressConfigs.ScreenLoader.loaderStyle = &EstiloDoLoader
-	
-	&WebSession.set('EstiloDoLoader',&EstiloDoLoader.ToString())
-	
-EndEvent
-
-Event &TipoDeLoader.ControlValueChanged
-	
-	
-	
-	ucNProgress1.loaderType = &TipoDeLoader
-	
-	if &TipoDeLoader <> dmLoaderType.PROGRESSBAR
-		&EstiloDoLoader.Visible = True
-	Else
-		&EstiloDoLoader.Visible = False
-	EndIf
-	
-	&WebSession.set('TipoDoLoader', &TipoDeLoader.ToString())
-	
-EndEvent
-]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
-        <Variable Name="sdtNProgressConfigs">
-          <Documentation />
-          <Properties><Property><Name>Name</Name><Value>sdtNProgressConfigs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:sdtNProgressConfigs, nProgressLoader</Value></Property></Properties>
-        </Variable>
-        <Variable Name="TipoDeLoader">
-          <Documentation />
-          <Properties><Property><Name>Name</Name><Value>TipoDeLoader</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:dmLoaderType, nProgressLoader</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property></Properties>
-        </Variable>
-        <Variable Name="EstiloDoLoader">
-          <Documentation />
-          <Properties><Property><Name>Name</Name><Value>EstiloDoLoader</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Gradiente:0,Disco:1,Disco Duplo:2,Pulsos:3,Cubo:4,Moderno:5</Value></Property></Properties>
-        </Variable>
-        <Variable Name="WebSession">
-          <Documentation />
-          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>
-        </Variable>
-        <Variable Name="Estilo">
-          <Documentation />
-          <Properties><Property><Name>Name</Name><Value>Estilo</Value></Property></Properties>
-        </Variable>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
-        <Help>
-          <HelpItem>
-            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
-            <Content />
-          </HelpItem>
-        </Help>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
-        <Properties />
-      </Part>
-      <Properties><Property><Name>Name</Name><Value>masterLoader</Value></Property><Property><Name>WEB_COMP</Name><Value>Master</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-    </Object>
     <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T21:15:06.0000000Z" checksum="5815952e8679bc841e02cb2766841406" fullyQualifiedName="nProgressLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" name="nProgressLoader" type="c88fffcd-b6f8-0000-8fec-00b5497e2117" description="n Progress Loader">
       <Part type="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
         <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
@@ -210,6 +23,87 @@ EndEvent
   -&gt; Loader minimalista no topo da tela
   -&gt; Loader com efeito visual no centro da tela(com vários estilos)
 - Funcionamento respeitando as fases da requisição do genexus</Value></Property><Property><Name>ModuleAuthor</Name><Value>Developer</Value></Property><Property><Name>ModuleLicenseUrl</Name><Value /></Property><Property><Name>ModuleProjectUrl</Name><Value /></Property><Property><Name>ModuleServerUrl</Name><Value /></Property><Property><Name>ModuleTags</Name><Value /></Property><Property><Name>ModuleOwner</Name><Value>Genexus Brasil</Value></Property><Property><Name>ModuleResources</Name><Value /></Property><Property><Name>Name</Name><Value>nProgressLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:14:16.0000000Z" checksum="d59cee3ac4e692b4fb8bd0a8d5af0a45" fullyQualifiedName="nProgressLoader.dmLoaderType" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="ce054fbc-6720-4a9c-a75c-1db1f51297a3" name="dmLoaderType" type="00972a17-9975-449e-aab1-d26165d51393" description="dm Loader Type" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>dmLoaderType</Value></Property><Property><Name>Description</Name><Value>dm Loader Type</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>IDEnumDefinedValues</Name><Value>1, PROGRESSBAR, Progress Bar; 2, SCREENLOADER, Screen Loader; 3, AMBOS, Progress Bar &amp; Screen Loader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:12:16.0000000Z" checksum="b6a924152cceee54c5e0c7567bf22abe" fullyQualifiedName="nProgressLoader.sdtNProgressConfigs" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="6b7f44b4-c974-4e2b-9a9a-567461deb508" name="sdtNProgressConfigs" type="447527b5-9210-4523-898b-5dccb17be60a" description="sdt NProgress Configs" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+      <Part type="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
+        <Level Name="sdtNProgressConfigs">
+          <LevelInfo guid="9e9f0a40-9453-4104-ad05-9040f98fc908" name="sdtNProgressConfigs" type="a76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="sdt NProgress Configs" user="AVELLFELIPE\felip">
+            <Properties><Property><Name>Name</Name><Value>sdtNProgressConfigs</Value></Property></Properties>
+          </LevelInfo>
+          <Item guid="565fdd7a-dae1-46a2-850b-b92dad406b30" name="loaderColor" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="loader Color" user="AVELLFELIPE\felip">
+            <Properties><Property><Name>Name</Name><Value>loaderColor</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>'#01469d'</Value></Property></Properties>
+          </Item>
+          <Level Name="ProgressBar">
+            <LevelInfo guid="a466eff4-9923-49db-bdb6-dd946514b5ac" name="ProgressBar" type="a76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Progress Bar" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>ProgressBar</Value></Property><Property><Name>idJsonInclude</Name><Value>idJsonEmpty</Value></Property></Properties>
+            </LevelInfo>
+            <Item guid="56b7bf14-77ce-4b8d-99e7-ce99f284f2e7" name="minimum" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="minimum" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>minimum</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>'0.08'</Value></Property></Properties>
+            </Item>
+            <Item guid="41c82ee9-d9bd-486a-8e20-24a46c7cc9d6" name="easing" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="easing" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>easing</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>'ease'</Value></Property></Properties>
+            </Item>
+            <Item guid="4a699b30-f82e-4e4e-ac3a-86fdc2ddc1a2" name="positionUsing" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="position Using" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>positionUsing</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>''</Value></Property></Properties>
+            </Item>
+            <Item guid="f479f8d3-f490-4c3b-965e-51cfed30b252" name="speed" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="speed" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>speed</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>200</Value></Property></Properties>
+            </Item>
+            <Item guid="cce208a6-664b-4ab2-9d9d-cdb658c6fed0" name="trickle" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="trickle" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>trickle</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>true</Value></Property></Properties>
+            </Item>
+            <Item guid="63c27737-6da0-47e4-95b6-cf120ed526da" name="trickleSpeed" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="trickle Speed" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>trickleSpeed</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>350</Value></Property></Properties>
+            </Item>
+            <Item guid="a130e463-7b1d-4f9f-85e0-98eebf97ba6d" name="showSpinner" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="show Spinner" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>showSpinner</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Boolean</Value></Property><Property><Name>AttCollection</Name><Value>False</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>false</Value></Property></Properties>
+            </Item>
+            <Item guid="7a412813-8205-42ac-b332-b2d26c8e637a" name="barSelector" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="bar Selector" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>barSelector</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>'[role="bar"]'</Value></Property></Properties>
+            </Item>
+            <Item guid="7d16e2a2-7545-4bfa-b6b2-5e5a6fb32042" name="spinnerSelector" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="spinner Selector" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>spinnerSelector</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>'[role="spinner"]'</Value></Property></Properties>
+            </Item>
+            <Item guid="d6812862-d2b5-4f00-ab91-9b42db19a572" name="parent" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="parent" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>parent</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>100</Value></Property><Property><Name>AttMaxLen</Name><Value>100</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>'body'</Value></Property></Properties>
+            </Item>
+            <Item guid="79b22da5-a695-4bd1-bf3e-7f1c4463a0c4" name="template" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="template" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>template</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>Length</Name><Value>1000</Value></Property><Property><Name>AttMaxLen</Name><Value>1000</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>'&lt;div class="bar" role="bar"&gt;&lt;div class="peg"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="spinner" role="spinner"&gt;&lt;div class="spinner-icon"&gt;&lt;/div&gt;&lt;/div&gt;'</Value></Property></Properties>
+            </Item>
+          </Level>
+          <Level Name="ScreenLoader">
+            <LevelInfo guid="34463517-9766-4fcc-960c-bc0d9081f2a7" name="ScreenLoader" type="a76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="Screen Loader" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>ScreenLoader</Value></Property><Property><Name>idJsonInclude</Name><Value>idJsonEmpty</Value></Property></Properties>
+            </LevelInfo>
+            <Item guid="5c1a27ec-46aa-44a8-9e5a-9fa4fcb9881a" name="loaderStyle" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="loader Style" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>loaderStyle</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>4</Value></Property></Properties>
+            </Item>
+            <Item guid="b294d068-49b3-40db-8782-8fb06d97a4f8" name="loaderSize" type="f76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="loader Size" user="AVELLFELIPE\felip">
+              <Properties><Property><Name>Name</Name><Value>loaderSize</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>ATT_INITIAL_VALUE</Name><Value>'100px'</Value></Property></Properties>
+            </Item>
+          </Level>
+        </Level>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>sdtNProgressConfigs</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
     </Object>
     <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:33:51.0000000Z" checksum="efad15ab5b8d06395b917bc67841d291" fullyQualifiedName="nProgressLoader.ucNProgress" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="c17eeef8-587b-43d1-80f3-0346c6779793" name="ucNProgress" type="562f4793-aabe-449f-8821-fc77e550698e" description="uc NProgress" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
       <Part type="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
@@ -786,8 +680,234 @@ EndEvent
       </Part>
       <Properties><Property><Name>Name</Name><Value>nprogress_js</Value></Property><Property><Name>Description</Name><Value>nprogress_js</Value></Property><Property><Name>JavaExtract</Name><Value>True</Value></Property><Property><Name>JavaExtractFolder</Name><Value>Resources\NProgressLoader</Value></Property><Property><Name>NetExtract</Name><Value>True</Value></Property><Property><Name>NetExtractFolder</Name><Value>Resources\NProgressLoader</Value></Property><Property><Name>NetCoreExtract</Name><Value>True</Value></Property><Property><Name>NetCoreExtractFolder</Name><Value>Resources\NProgressLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
     </Object>
+    <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T15:26:30.0000000Z" checksum="3ca668449d385f0dd10bf1890c2b801e" fullyQualifiedName="nProgressExample" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="e90a8eef-966f-4125-b789-eb16d29387c6" name="nProgressExample" type="00000000-0000-0000-0000-000000000008" description="n Progress Example">
+      <Properties><Property><Name>Name</Name><Value>nProgressExample</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="4RSISTEMAS\davi.alves" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T15:02:50.0000000Z" checksum="609444cb547673f50076f1379e0c0b3b" fullyQualifiedName="Painel2" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="a5b14f82-e5f2-495a-a521-30da8968dbe4" name="Painel2" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Painel2" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
+      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><action controlName="Retornarparaahome" onClickEvent="'Retornar para a home'" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+        <Source><![CDATA[Event 'Retornar para a home'
+	
+	Painel1.Link()
+	
+EndEvent
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Properties />
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>Painel2</Value></Property><Property><Name>MasterPage</Name><Value>masterLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T17:19:48.0000000Z" checksum="e996556376e977a9bc42b34fba046e20" fullyQualifiedName="Painel1" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="d90d575a-d33e-4db9-b842-a7935626551c" name="Painel1" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Painel1" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
+      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><textblock controlName="Textblock1" caption="Para melhor visualizar o funcionamento do loader aperte F12 vá até a aba Network e altere de No throttling para Slow 3G." /></cell></row><row><cell><action controlName="ChamarTela" onClickEvent="'Chamar Tela'" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+        <Source><![CDATA[Event 'Chamar Tela'
+	
+	Painel2.Link()
+	
+EndEvent
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>Painel1</Value></Property><Property><Name>MasterPage</Name><Value>masterLoader</Value></Property><Property><Name>IsMain</Name><Value>True</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:15:04.0000000Z" checksum="4a4b5a42de53fd6446faa8af12f7e0a5" fullyQualifiedName="masterLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="6e8f52c0-59be-49f5-ab4a-dc77f5717244" name="masterLoader" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="master Loader" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
+      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><table controlName="Table1" class="ContainerFluid HeaderContainer"><row><cell><data attribute="&amp;TipoDeLoader" labelWidth="10%" /></cell></row><row><cell><data attribute="&amp;EstiloDoLoader" labelWidth="10%" /></cell></row></table></cell></row><row><cell><contentholder controlName="ContHolder1" /></cell></row><row><cell><ucw gxControlType="-1710903878" PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ControlName&lt;/Name&gt;&lt;Value&gt;ucNProgress1&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;loaderConfig&lt;/Name&gt;&lt;Value&gt;&amp;amp;sdtNProgressConfigs&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+        <Source><![CDATA[Event Start
+	
+	If not &WebSession.Get('TipoDoLoader').IsEmpty()
+		&TipoDeLoader.FromString(&WebSession.Get('TipoDoLoader'))
+	Else
+		&TipoDeLoader = dmLoaderType.PROGRESSBAR
+	EndIf
+
+	
+	If not &WebSession.Get('EstiloDoLoader').IsEmpty()
+		
+		&Estilo = &WebSession.Get('EstiloDoLoader').ToNumeric()
+		&EstiloDoLoader.FromString(&WebSession.Get('EstiloDoLoader'))
+	Else
+		&EstiloDoLoader = 1
+	EndIf
+
+	if &TipoDeLoader <> dmLoaderType.PROGRESSBAR
+		&EstiloDoLoader.Visible = True
+	Else
+		&EstiloDoLoader.Visible = False
+	EndIf
+
+	ucNProgress1.loaderType = &TipoDeLoader
+	&sdtNProgressConfigs.ScreenLoader.loaderStyle = &EstiloDoLoader
+	
+	Log.Debug(&sdtNProgressConfigs.ToJson(), 'log sdt nprogress')	
+EndEvent
+
+Event &EstiloDoLoader.ControlValueChanged
+	
+	&sdtNProgressConfigs.ScreenLoader.loaderStyle = &EstiloDoLoader
+	
+	&WebSession.set('EstiloDoLoader',&EstiloDoLoader.ToString())
+	
+EndEvent
+
+Event &TipoDeLoader.ControlValueChanged
+	
+	
+	
+	ucNProgress1.loaderType = &TipoDeLoader
+	
+	if &TipoDeLoader <> dmLoaderType.PROGRESSBAR
+		&EstiloDoLoader.Visible = True
+	Else
+		&EstiloDoLoader.Visible = False
+	EndIf
+	
+	&WebSession.set('TipoDoLoader', &TipoDeLoader.ToString())
+	
+EndEvent
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="sdtNProgressConfigs">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>sdtNProgressConfigs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:sdtNProgressConfigs, nProgressLoader</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TipoDeLoader">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TipoDeLoader</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:dmLoaderType, nProgressLoader</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property></Properties>
+        </Variable>
+        <Variable Name="EstiloDoLoader">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>EstiloDoLoader</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Gradiente:0,Disco:1,Disco Duplo:2,Pulsos:3,Cubo:4,Moderno:5</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WebSession">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Estilo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Estilo</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>masterLoader</Value></Property><Property><Name>WEB_COMP</Name><Value>Master</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
   </Objects>
   <Dependencies>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+      <Properties Name="Module" PackageName="Artech.Architecture" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
+      <Properties Name="Content" PackageName="Artech.Architecture" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="a5e6a251-2df0-44d8-adab-1da237574326">
+      <Properties Name="Diagram" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="babf62c5-0111-49e9-a1c3-cc004d90900a">
+      <Properties Name="Documentation" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="00972a17-9975-449e-aab1-d26165d51393">
+      <Properties Name="Domain" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+      <Properties Name="Help" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="447527b5-9210-4523-898b-5dccb17be60a">
+      <Properties Name="Structured Data Type" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
+      <Properties Name="Structure" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="562f4793-aabe-449f-8821-fc77e550698e">
+      <Properties Name="User Control" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
+      <Properties Name="Screen Template" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="8e9e4a7c-a4d3-4c36-8e8e-fb6702402f63">
+      <Properties Name="Properties" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="1132ac08-290f-4fd1-bd18-64777b7329d1">
+      <Properties Name="File" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="9b6155f9-f286-4ed5-bd15-67672e8ea320">
+      <Properties Name="Binary Content" PackageName="GenexusBL" />
+    </Reference>
     <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="00000000-0000-0000-0000-000000000008">
       <Properties Name="Folder" PackageName="GenexusBL" />
     </Reference>
@@ -809,40 +929,13 @@ EndEvent
     <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
       <Properties Name="Variables" PackageName="GenexusBL" />
     </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ad3ca970-19d0-44e1-a7b7-db05556e820c">
-      <Properties Name="Help" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="babf62c5-0111-49e9-a1c3-cc004d90900a">
-      <Properties Name="Documentation" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="c88fffcd-b6f8-0000-8fec-00b5497e2117">
-      <Properties Name="Module" PackageName="Artech.Architecture" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
-      <Properties Name="Content" PackageName="Artech.Architecture" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="a5e6a251-2df0-44d8-adab-1da237574326">
-      <Properties Name="Diagram" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="562f4793-aabe-449f-8821-fc77e550698e">
-      <Properties Name="User Control" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
-      <Properties Name="Screen Template" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="8e9e4a7c-a4d3-4c36-8e8e-fb6702402f63">
-      <Properties Name="Properties" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="1132ac08-290f-4fd1-bd18-64777b7329d1">
-      <Properties Name="File" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="9b6155f9-f286-4ed5-bd15-67672e8ea320">
-      <Properties Name="Binary Content" PackageName="GenexusBL" />
-    </Reference>
   </Dependencies>
   <ObjectsIdentityMapping>
     <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="Root Module" parent="">
       <Guid>afa47377-41d5-4ae8-9755-6f53150aa361</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Attribute" parent="">
+      <Guid>7f83da99-bc71-5230-bf17-0352ce27c129</Guid>
     </ObjectIdentity>
     <ObjectIdentity Type="c804fdbd-7c0b-440d-8527-4316c92649a6" Name="Carmine" parent="">
       <Guid>c3d9279b-69fb-4f4a-920e-62a13a536d87</Guid>
@@ -850,8 +943,8 @@ EndEvent
     <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="TextBlock" parent="">
       <Guid>27607de1-bd65-5b1b-99b8-9db711c42fc6</Guid>
     </ObjectIdentity>
-    <ObjectIdentity Type="00972a17-9975-449e-aab1-d26165d51393" Name="dmLoaderType" parent="nProgressLoader">
-      <Guid>ce054fbc-6720-4a9c-a75c-1db1f51297a3</Guid>
+    <ObjectIdentity Type="c163e562-42c6-4158-ad83-5b21a14cf30e" Name="Log" parent="GeneXus.Common">
+      <Guid>e9e97ad7-95c9-4d3a-a484-5235d071f746</Guid>
     </ObjectIdentity>
     <ObjectIdentity Type="ecececec-dfe0-4a57-ae8f-c6e31b0dcbc0" Name="Default" parent="">
       <Guid>454d4638-6bcf-413e-9c97-90729a1ebefb</Guid>
@@ -859,26 +952,17 @@ EndEvent
     <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Form" parent="">
       <Guid>d5ef9926-a55b-5eb1-ac93-2211cfeeb656</Guid>
     </ObjectIdentity>
-    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Attribute" parent="">
-      <Guid>7f83da99-bc71-5230-bf17-0352ce27c129</Guid>
-    </ObjectIdentity>
     <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Button" parent="">
       <Guid>abd2de3e-1c96-5681-b52b-bbe33c0dca49</Guid>
     </ObjectIdentity>
     <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Table" parent="">
       <Guid>784008a4-3c1e-563a-9723-453ef4d698c9</Guid>
     </ObjectIdentity>
-    <ObjectIdentity Type="c163e562-42c6-4158-ad83-5b21a14cf30e" Name="Log" parent="GeneXus.Common">
-      <Guid>e9e97ad7-95c9-4d3a-a484-5235d071f746</Guid>
-    </ObjectIdentity>
     <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="Common" parent="GeneXus">
       <Guid>8c7152cf-0193-4d7c-bf15-efeb057c5398</Guid>
     </ObjectIdentity>
     <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="GeneXus" parent="">
       <Guid>4f454e73-7d8f-4a0f-908a-1a355f3634a5</Guid>
-    </ObjectIdentity>
-    <ObjectIdentity Type="447527b5-9210-4523-898b-5dccb17be60a" Name="sdtNProgressConfigs" parent="nProgressLoader">
-      <Guid>6b7f44b4-c974-4e2b-9a9a-567461deb508</Guid>
     </ObjectIdentity>
     <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="HeaderContainer" parent="">
       <Guid>78856cf2-efc7-452a-bef0-99d82a38b1ee</Guid>
