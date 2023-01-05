@@ -9,20 +9,192 @@
     <Version guid="9ca4f18d-4877-4921-b7e4-d064c5ae2aa9" name="Extensibility" />
   </Source>
   <Objects>
-    <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T21:15:06.0000000Z" checksum="5815952e8679bc841e02cb2766841406" fullyQualifiedName="nProgressLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" name="nProgressLoader" type="c88fffcd-b6f8-0000-8fec-00b5497e2117" description="n Progress Loader">
-      <Part type="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
+    <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T15:26:30.0000000Z" checksum="3ca668449d385f0dd10bf1890c2b801e" fullyQualifiedName="nProgressExample" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="e90a8eef-966f-4125-b789-eb16d29387c6" name="nProgressExample" type="00000000-0000-0000-0000-000000000008" description="n Progress Example">
+      <Properties><Property><Name>Name</Name><Value>nProgressExample</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="4RSISTEMAS\davi.alves" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T15:02:50.0000000Z" checksum="609444cb547673f50076f1379e0c0b3b" fullyQualifiedName="Painel2" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="a5b14f82-e5f2-495a-a521-30da8968dbe4" name="Painel2" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Painel2" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
+      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><action controlName="Retornarparaahome" onClickEvent="'Retornar para a home'" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
         <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
       </Part>
-      <Part type="a5e6a251-2df0-44d8-adab-1da237574326">
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+        <Source><![CDATA[Event 'Retornar para a home'
+	
+	Painel1.Link()
+	
+EndEvent
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
         <Properties />
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
       </Part>
       <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
         <Properties />
       </Part>
-      <Properties><Property><Name>PackagedModuleName</Name><Value>nProgressLoader</Value></Property><Property><Name>ModuleVersion</Name><Value>1.0.10</Value></Property><Property><Name>ModuleDescription</Name><Value>- Loader com 2 opções visuais 
-  -&gt; Loader minimalista no topo da tela
-  -&gt; Loader com efeito visual no centro da tela(com vários estilos)
-- Funcionamento respeitando as fases da requisição do genexus</Value></Property><Property><Name>ModuleAuthor</Name><Value>Developer</Value></Property><Property><Name>ModuleLicenseUrl</Name><Value /></Property><Property><Name>ModuleProjectUrl</Name><Value /></Property><Property><Name>ModuleServerUrl</Name><Value /></Property><Property><Name>ModuleTags</Name><Value /></Property><Property><Name>ModuleOwner</Name><Value>Genexus Brasil</Value></Property><Property><Name>ModuleResources</Name><Value /></Property><Property><Name>Name</Name><Value>nProgressLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      <Properties><Property><Name>Name</Name><Value>Painel2</Value></Property><Property><Name>MasterPage</Name><Value>masterLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T17:19:48.0000000Z" checksum="e996556376e977a9bc42b34fba046e20" fullyQualifiedName="Painel1" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="d90d575a-d33e-4db9-b842-a7935626551c" name="Painel1" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Painel1" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
+      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><textblock controlName="Textblock1" caption="Para melhor visualizar o funcionamento do loader aperte F12 vá até a aba Network e altere de No throttling para Slow 3G." /></cell></row><row><cell><action controlName="ChamarTela" onClickEvent="'Chamar Tela'" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+        <Source><![CDATA[Event 'Chamar Tela'
+	
+	Painel2.Link()
+	
+EndEvent
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>Painel1</Value></Property><Property><Name>MasterPage</Name><Value>masterLoader</Value></Property><Property><Name>IsMain</Name><Value>True</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:15:04.0000000Z" checksum="4a4b5a42de53fd6446faa8af12f7e0a5" fullyQualifiedName="masterLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="6e8f52c0-59be-49f5-ab4a-dc77f5717244" name="masterLoader" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="master Loader" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
+      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><table controlName="Table1" class="ContainerFluid HeaderContainer"><row><cell><data attribute="&amp;TipoDeLoader" labelWidth="10%" /></cell></row><row><cell><data attribute="&amp;EstiloDoLoader" labelWidth="10%" /></cell></row></table></cell></row><row><cell><contentholder controlName="ContHolder1" /></cell></row><row><cell><ucw gxControlType="-1710903878" PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ControlName&lt;/Name&gt;&lt;Value&gt;ucNProgress1&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;loaderConfig&lt;/Name&gt;&lt;Value&gt;&amp;amp;sdtNProgressConfigs&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+        <Source><![CDATA[Event Start
+	
+	If not &WebSession.Get('TipoDoLoader').IsEmpty()
+		&TipoDeLoader.FromString(&WebSession.Get('TipoDoLoader'))
+	Else
+		&TipoDeLoader = dmLoaderType.PROGRESSBAR
+	EndIf
+
+	
+	If not &WebSession.Get('EstiloDoLoader').IsEmpty()
+		
+		&Estilo = &WebSession.Get('EstiloDoLoader').ToNumeric()
+		&EstiloDoLoader.FromString(&WebSession.Get('EstiloDoLoader'))
+	Else
+		&EstiloDoLoader = 1
+	EndIf
+
+	if &TipoDeLoader <> dmLoaderType.PROGRESSBAR
+		&EstiloDoLoader.Visible = True
+	Else
+		&EstiloDoLoader.Visible = False
+	EndIf
+
+	ucNProgress1.loaderType = &TipoDeLoader
+	&sdtNProgressConfigs.ScreenLoader.loaderStyle = &EstiloDoLoader
+	
+	Log.Debug(&sdtNProgressConfigs.ToJson(), 'log sdt nprogress')	
+EndEvent
+
+Event &EstiloDoLoader.ControlValueChanged
+	
+	&sdtNProgressConfigs.ScreenLoader.loaderStyle = &EstiloDoLoader
+	
+	&WebSession.set('EstiloDoLoader',&EstiloDoLoader.ToString())
+	
+EndEvent
+
+Event &TipoDeLoader.ControlValueChanged
+	
+	
+	
+	ucNProgress1.loaderType = &TipoDeLoader
+	
+	if &TipoDeLoader <> dmLoaderType.PROGRESSBAR
+		&EstiloDoLoader.Visible = True
+	Else
+		&EstiloDoLoader.Visible = False
+	EndIf
+	
+	&WebSession.set('TipoDoLoader', &TipoDeLoader.ToString())
+	
+EndEvent
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+        <Source><![CDATA[]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="sdtNProgressConfigs">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>sdtNProgressConfigs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:sdtNProgressConfigs, nProgressLoader</Value></Property></Properties>
+        </Variable>
+        <Variable Name="TipoDeLoader">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>TipoDeLoader</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:dmLoaderType, nProgressLoader</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property></Properties>
+        </Variable>
+        <Variable Name="EstiloDoLoader">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>EstiloDoLoader</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Gradiente:0,Disco:1,Disco Duplo:2,Pulsos:3,Cubo:4,Moderno:5</Value></Property></Properties>
+        </Variable>
+        <Variable Name="WebSession">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Estilo">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Estilo</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>masterLoader</Value></Property><Property><Name>WEB_COMP</Name><Value>Master</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
     </Object>
     <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:14:16.0000000Z" checksum="d59cee3ac4e692b4fb8bd0a8d5af0a45" fullyQualifiedName="nProgressLoader.dmLoaderType" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="ce054fbc-6720-4a9c-a75c-1db1f51297a3" name="dmLoaderType" type="00972a17-9975-449e-aab1-d26165d51393" description="dm Loader Type" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
       <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
@@ -105,7 +277,22 @@
       </Part>
       <Properties><Property><Name>Name</Name><Value>sdtNProgressConfigs</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
     </Object>
-    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:33:51.0000000Z" checksum="efad15ab5b8d06395b917bc67841d291" fullyQualifiedName="nProgressLoader.ucNProgress" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="c17eeef8-587b-43d1-80f3-0346c6779793" name="ucNProgress" type="562f4793-aabe-449f-8821-fc77e550698e" description="uc NProgress" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+    <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-05T12:18:35.0000000Z" checksum="4e82251708799b9eba24a07c2af40641" fullyQualifiedName="nProgressLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" name="nProgressLoader" type="c88fffcd-b6f8-0000-8fec-00b5497e2117" description="n Progress Loader">
+      <Part type="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="a5e6a251-2df0-44d8-adab-1da237574326">
+        <Properties />
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>PackagedModuleName</Name><Value>nProgressLoader</Value></Property><Property><Name>ModuleVersion</Name><Value>1.0.11</Value></Property><Property><Name>ModuleDescription</Name><Value>- Loader com 2 opções visuais 
+  -&gt; Loader minimalista no topo da tela
+  -&gt; Loader com efeito visual no centro da tela(com vários estilos)
+- Funcionamento respeitando as fases da requisição do genexus</Value></Property><Property><Name>ModuleAuthor</Name><Value>Developer</Value></Property><Property><Name>ModuleLicenseUrl</Name><Value /></Property><Property><Name>ModuleProjectUrl</Name><Value /></Property><Property><Name>ModuleServerUrl</Name><Value /></Property><Property><Name>ModuleTags</Name><Value /></Property><Property><Name>ModuleOwner</Name><Value>Genexus Brasil</Value></Property><Property><Name>ModuleResources</Name><Value /></Property><Property><Name>Name</Name><Value>nProgressLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-05T12:07:37.0000000Z" checksum="da5db9baa6a9b8267453b60d44624fa2" fullyQualifiedName="nProgressLoader.ucNProgress" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="c17eeef8-587b-43d1-80f3-0346c6779793" name="ucNProgress" type="562f4793-aabe-449f-8821-fc77e550698e" description="uc NProgress" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
       <Part type="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
         <Source><![CDATA[<!--<script src='http://localhost/TransparenciaSiaficCSharpSQL/UserControls/nprogress.js'></script>!-->
 
@@ -463,7 +650,6 @@
 		<Value id="3">Both</Value>	
 	</Property>
     
-    
 	<script name="_getStaticPath">	
 		const gxStaticDir = gx.staticDirectory.substring(1, gx.staticDirectory.length)
 		const staticDir = (gxStaticDir !== ""? "../":"") + gxStaticDir		
@@ -480,11 +666,15 @@
 	</script>
 	
 	<script name="before" When="BeforeShow">
+	
+		this.loaderSize  = this.loaderConfig.ScreenLoader.loaderSize;
+		this.loaderColor = this.loaderConfig.loaderColor;
+		
 		if (!this.IsPostBack){
 			
-			if (!window.nprogress){
+			if (!window.NProgress){
 				this._loadScriptByUrl("Resources/NProgressLoader/nprogress.js")				
-				
+				window.NProgress = NProgress;
 				this.nprogress = NProgress;
 			}
 		}	
@@ -499,6 +689,7 @@
 		
 		let loaderConfig = myThis.loaderConfig;
 		myThis.loaderSize = loaderConfig.ScreenLoader.loaderSize;
+		myThis.loaderColor = loaderConfig.loaderColor;
 		
 		//NProgress.configure({ showSpinner: loaderConfig.showSpinner });
 		//SETA AS CONFIGURAÇÕES DO NPROGRESS DE ACORDO COM OS VALORES QUE VEM DO SDT DE CONFIGURAÇÕES{sdtNProgressConfigs}
@@ -680,234 +871,8 @@
       </Part>
       <Properties><Property><Name>Name</Name><Value>nprogress_js</Value></Property><Property><Name>Description</Name><Value>nprogress_js</Value></Property><Property><Name>JavaExtract</Name><Value>True</Value></Property><Property><Name>JavaExtractFolder</Name><Value>Resources\NProgressLoader</Value></Property><Property><Name>NetExtract</Name><Value>True</Value></Property><Property><Name>NetExtractFolder</Name><Value>Resources\NProgressLoader</Value></Property><Property><Name>NetCoreExtract</Name><Value>True</Value></Property><Property><Name>NetCoreExtractFolder</Name><Value>Resources\NProgressLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
     </Object>
-    <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T15:26:30.0000000Z" checksum="3ca668449d385f0dd10bf1890c2b801e" fullyQualifiedName="nProgressExample" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="e90a8eef-966f-4125-b789-eb16d29387c6" name="nProgressExample" type="00000000-0000-0000-0000-000000000008" description="n Progress Example">
-      <Properties><Property><Name>Name</Name><Value>nProgressExample</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-    </Object>
-    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="4RSISTEMAS\davi.alves" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T15:02:50.0000000Z" checksum="609444cb547673f50076f1379e0c0b3b" fullyQualifiedName="Painel2" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="a5b14f82-e5f2-495a-a521-30da8968dbe4" name="Painel2" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Painel2" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
-      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
-        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><action controlName="Retornarparaahome" onClickEvent="'Retornar para a home'" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
-        <Source><![CDATA[Event 'Retornar para a home'
-	
-	Painel1.Link()
-	
-EndEvent
-]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
-        <Properties />
-      </Part>
-      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
-        <Help>
-          <HelpItem>
-            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
-            <Content />
-          </HelpItem>
-        </Help>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
-        <Properties />
-      </Part>
-      <Properties><Property><Name>Name</Name><Value>Painel2</Value></Property><Property><Name>MasterPage</Name><Value>masterLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-    </Object>
-    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T17:19:48.0000000Z" checksum="e996556376e977a9bc42b34fba046e20" fullyQualifiedName="Painel1" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="d90d575a-d33e-4db9-b842-a7935626551c" name="Painel1" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Painel1" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
-      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
-        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><textblock controlName="Textblock1" caption="Para melhor visualizar o funcionamento do loader aperte F12 vá até a aba Network e altere de No throttling para Slow 3G." /></cell></row><row><cell><action controlName="ChamarTela" onClickEvent="'Chamar Tela'" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
-        <Source><![CDATA[Event 'Chamar Tela'
-	
-	Painel2.Link()
-	
-EndEvent
-]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
-        <Help>
-          <HelpItem>
-            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
-            <Content />
-          </HelpItem>
-        </Help>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
-        <Properties />
-      </Part>
-      <Properties><Property><Name>Name</Name><Value>Painel1</Value></Property><Property><Name>MasterPage</Name><Value>masterLoader</Value></Property><Property><Name>IsMain</Name><Value>True</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-    </Object>
-    <Object parentGuid="e90a8eef-966f-4125-b789-eb16d29387c6" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:15:04.0000000Z" checksum="4a4b5a42de53fd6446faa8af12f7e0a5" fullyQualifiedName="masterLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="6e8f52c0-59be-49f5-ab4a-dc77f5717244" name="masterLoader" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="master Loader" parent="nProgressExample" parentType="00000000-0000-0000-0000-000000000008">
-      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
-        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:17.11.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><table controlName="Table1" class="ContainerFluid HeaderContainer"><row><cell><data attribute="&amp;TipoDeLoader" labelWidth="10%" /></cell></row><row><cell><data attribute="&amp;EstiloDoLoader" labelWidth="10%" /></cell></row></table></cell></row><row><cell><contentholder controlName="ContHolder1" /></cell></row><row><cell><ucw gxControlType="-1710903878" PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ControlName&lt;/Name&gt;&lt;Value&gt;ucNProgress1&lt;/Value&gt;&lt;/Property&gt;&lt;Property&gt;&lt;Name&gt;loaderConfig&lt;/Name&gt;&lt;Value&gt;&amp;amp;sdtNProgressConfigs&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
-        <Source><![CDATA[Event Start
-	
-	If not &WebSession.Get('TipoDoLoader').IsEmpty()
-		&TipoDeLoader.FromString(&WebSession.Get('TipoDoLoader'))
-	Else
-		&TipoDeLoader = dmLoaderType.PROGRESSBAR
-	EndIf
-
-	
-	If not &WebSession.Get('EstiloDoLoader').IsEmpty()
-		
-		&Estilo = &WebSession.Get('EstiloDoLoader').ToNumeric()
-		&EstiloDoLoader.FromString(&WebSession.Get('EstiloDoLoader'))
-	Else
-		&EstiloDoLoader = 1
-	EndIf
-
-	if &TipoDeLoader <> dmLoaderType.PROGRESSBAR
-		&EstiloDoLoader.Visible = True
-	Else
-		&EstiloDoLoader.Visible = False
-	EndIf
-
-	ucNProgress1.loaderType = &TipoDeLoader
-	&sdtNProgressConfigs.ScreenLoader.loaderStyle = &EstiloDoLoader
-	
-	Log.Debug(&sdtNProgressConfigs.ToJson(), 'log sdt nprogress')	
-EndEvent
-
-Event &EstiloDoLoader.ControlValueChanged
-	
-	&sdtNProgressConfigs.ScreenLoader.loaderStyle = &EstiloDoLoader
-	
-	&WebSession.set('EstiloDoLoader',&EstiloDoLoader.ToString())
-	
-EndEvent
-
-Event &TipoDeLoader.ControlValueChanged
-	
-	
-	
-	ucNProgress1.loaderType = &TipoDeLoader
-	
-	if &TipoDeLoader <> dmLoaderType.PROGRESSBAR
-		&EstiloDoLoader.Visible = True
-	Else
-		&EstiloDoLoader.Visible = False
-	EndIf
-	
-	&WebSession.set('TipoDoLoader', &TipoDeLoader.ToString())
-	
-EndEvent
-]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
-        <Source><![CDATA[]]></Source>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
-        <Variable Name="sdtNProgressConfigs">
-          <Documentation />
-          <Properties><Property><Name>Name</Name><Value>sdtNProgressConfigs</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:sdtNProgressConfigs, nProgressLoader</Value></Property></Properties>
-        </Variable>
-        <Variable Name="TipoDeLoader">
-          <Documentation />
-          <Properties><Property><Name>Name</Name><Value>TipoDeLoader</Value></Property><Property><Name>idBasedOn</Name><Value>Domain:dmLoaderType, nProgressLoader</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property></Properties>
-        </Variable>
-        <Variable Name="EstiloDoLoader">
-          <Documentation />
-          <Properties><Property><Name>Name</Name><Value>EstiloDoLoader</Value></Property><Property><Name>ControlType</Name><Value>Combo Box</Value></Property><Property><Name>ControlValues</Name><Value>Gradiente:0,Disco:1,Disco Duplo:2,Pulsos:3,Cubo:4,Moderno:5</Value></Property></Properties>
-        </Variable>
-        <Variable Name="WebSession">
-          <Documentation />
-          <Properties><Property><Name>Name</Name><Value>WebSession</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>ext:WebSession</Value></Property></Properties>
-        </Variable>
-        <Variable Name="Estilo">
-          <Documentation />
-          <Properties><Property><Name>Name</Name><Value>Estilo</Value></Property></Properties>
-        </Variable>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
-        <Help>
-          <HelpItem>
-            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
-            <Content />
-          </HelpItem>
-        </Help>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
-        <Properties />
-      </Part>
-      <Properties><Property><Name>Name</Name><Value>masterLoader</Value></Property><Property><Name>WEB_COMP</Name><Value>Master</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-    </Object>
   </Objects>
   <Dependencies>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="c88fffcd-b6f8-0000-8fec-00b5497e2117">
-      <Properties Name="Module" PackageName="Artech.Architecture" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
-      <Properties Name="Content" PackageName="Artech.Architecture" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="a5e6a251-2df0-44d8-adab-1da237574326">
-      <Properties Name="Diagram" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="babf62c5-0111-49e9-a1c3-cc004d90900a">
-      <Properties Name="Documentation" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="00972a17-9975-449e-aab1-d26165d51393">
-      <Properties Name="Domain" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ad3ca970-19d0-44e1-a7b7-db05556e820c">
-      <Properties Name="Help" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="447527b5-9210-4523-898b-5dccb17be60a">
-      <Properties Name="Structured Data Type" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
-      <Properties Name="Structure" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="562f4793-aabe-449f-8821-fc77e550698e">
-      <Properties Name="User Control" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
-      <Properties Name="Screen Template" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="8e9e4a7c-a4d3-4c36-8e8e-fb6702402f63">
-      <Properties Name="Properties" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="1132ac08-290f-4fd1-bd18-64777b7329d1">
-      <Properties Name="File" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="9b6155f9-f286-4ed5-bd15-67672e8ea320">
-      <Properties Name="Binary Content" PackageName="GenexusBL" />
-    </Reference>
     <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="00000000-0000-0000-0000-000000000008">
       <Properties Name="Folder" PackageName="GenexusBL" />
     </Reference>
@@ -929,13 +894,49 @@ EndEvent
     <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
       <Properties Name="Variables" PackageName="GenexusBL" />
     </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+      <Properties Name="Help" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="babf62c5-0111-49e9-a1c3-cc004d90900a">
+      <Properties Name="Documentation" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="00972a17-9975-449e-aab1-d26165d51393">
+      <Properties Name="Domain" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="447527b5-9210-4523-898b-5dccb17be60a">
+      <Properties Name="Structured Data Type" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
+      <Properties Name="Structure" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+      <Properties Name="Module" PackageName="Artech.Architecture" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
+      <Properties Name="Content" PackageName="Artech.Architecture" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="a5e6a251-2df0-44d8-adab-1da237574326">
+      <Properties Name="Diagram" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="562f4793-aabe-449f-8821-fc77e550698e">
+      <Properties Name="User Control" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
+      <Properties Name="Screen Template" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="8e9e4a7c-a4d3-4c36-8e8e-fb6702402f63">
+      <Properties Name="Properties" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="1132ac08-290f-4fd1-bd18-64777b7329d1">
+      <Properties Name="File" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="9b6155f9-f286-4ed5-bd15-67672e8ea320">
+      <Properties Name="Binary Content" PackageName="GenexusBL" />
+    </Reference>
   </Dependencies>
   <ObjectsIdentityMapping>
     <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="Root Module" parent="">
       <Guid>afa47377-41d5-4ae8-9755-6f53150aa361</Guid>
-    </ObjectIdentity>
-    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Attribute" parent="">
-      <Guid>7f83da99-bc71-5230-bf17-0352ce27c129</Guid>
     </ObjectIdentity>
     <ObjectIdentity Type="c804fdbd-7c0b-440d-8527-4316c92649a6" Name="Carmine" parent="">
       <Guid>c3d9279b-69fb-4f4a-920e-62a13a536d87</Guid>
@@ -943,20 +944,23 @@ EndEvent
     <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="TextBlock" parent="">
       <Guid>27607de1-bd65-5b1b-99b8-9db711c42fc6</Guid>
     </ObjectIdentity>
-    <ObjectIdentity Type="c163e562-42c6-4158-ad83-5b21a14cf30e" Name="Log" parent="GeneXus.Common">
-      <Guid>e9e97ad7-95c9-4d3a-a484-5235d071f746</Guid>
-    </ObjectIdentity>
     <ObjectIdentity Type="ecececec-dfe0-4a57-ae8f-c6e31b0dcbc0" Name="Default" parent="">
       <Guid>454d4638-6bcf-413e-9c97-90729a1ebefb</Guid>
     </ObjectIdentity>
     <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Form" parent="">
       <Guid>d5ef9926-a55b-5eb1-ac93-2211cfeeb656</Guid>
     </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Attribute" parent="">
+      <Guid>7f83da99-bc71-5230-bf17-0352ce27c129</Guid>
+    </ObjectIdentity>
     <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Button" parent="">
       <Guid>abd2de3e-1c96-5681-b52b-bbe33c0dca49</Guid>
     </ObjectIdentity>
     <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Table" parent="">
       <Guid>784008a4-3c1e-563a-9723-453ef4d698c9</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="c163e562-42c6-4158-ad83-5b21a14cf30e" Name="Log" parent="GeneXus.Common">
+      <Guid>e9e97ad7-95c9-4d3a-a484-5235d071f746</Guid>
     </ObjectIdentity>
     <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="Common" parent="GeneXus">
       <Guid>8c7152cf-0193-4d7c-bf15-efeb057c5398</Guid>
