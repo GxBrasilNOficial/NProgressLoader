@@ -504,56 +504,53 @@
 									'<div class="modern"><div class="modern-slice slice1"></div><div class="modern-slice slice2"></div><div class="modern-slice slice3"></div></div>'
 			]
 			
-			document.removeEventListener("DOMNodeInserted",()=>{},true);
-			document.removeEventListener("DOMNodeRemoved",()=>{},true);
+			document.removeEventListener("DOMNodeInserted", () => {}, true);
+			document.removeEventListener("DOMNodeRemoved", () => {}, true);
 			
-			gx.spa.deleteObserver("onbeforesend")
-			gx.spa.deleteObserver("onnavigatestart")
-			gx.spa.deleteObserver("onbeforeprocessresponse")
-			gx.spa.deleteObserver("oncontentreplace")
-			gx.spa.deleteObserver("onnavigate")		
+			gx.spa.deleteObserver("onbeforesend");
+			gx.spa.deleteObserver("onnavigatestart");
+			gx.spa.deleteObserver("onbeforeprocessresponse");
+			gx.spa.deleteObserver("oncontentreplace");
+			gx.spa.deleteObserver("onnavigate");
 			
-			/*DOMNodeInserted*/
-			document.addEventListener("DOMNodeInserted", (e) => {
-				
-				var hasClass 	= e.target.classList
-				
-				if(typeof hasClass !== "undefined" && e.target.classList.contains("gx-mask")){
-					if (!document.querySelector(".loader")){
-						if (myThis.loaderType === "1" || myThis.loaderType === "3"){
-							NProgress.start()
-						}
-					
-						if (myThis.loaderType === "2"  || myThis.loaderType === "3"){
-//							let loaderElement = `<div class="loader"> ${myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]}</div>`
-//                			document.body.insertAdjacentHTML('beforeend', loaderElement)					
-							jQuery("body").append(
-								`<div class="loader"> ${
-								myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]
-								}</div>`
-							);
-						}
+			// Configurar MutationObserver
+			const observer = new MutationObserver((mutationsList) => {
+				for (let mutation of mutationsList) {
+					if (mutation.type === 'childList') {
+						mutation.addedNodes.forEach((node) => {
+							if (node.nodeType === 1 && node.classList.contains("gx-mask")) {
+								if (!document.querySelector(".loader")) {
+									if (myThis.loaderType === "1" || myThis.loaderType === "3") {
+										NProgress.start();
+									}
+									if (myThis.loaderType === "2" || myThis.loaderType === "3") {
+										jQuery("body").append(
+											`<div class="loader"> ${
+												myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]
+											}</div>`
+										);
+									}
+								}
+							}
+						});
+			
+						mutation.removedNodes.forEach((node) => {
+							if (node.nodeType === 1 && node.classList.contains("gx-mask")) {
+								if (myThis.loaderType !== "2") {
+									NProgress.done();
+								}
+								if (myThis.loaderType !== "1" && document.querySelector(".loader")) {
+									document.querySelector(".loader").remove();
+								}
+							}
+						});
 					}
-				};
+				}
 			});
+			
+			// Observar mudanças no body
+			observer.observe(document.body, { childList: true, subtree: true });
 		
-			/*DOMNodeRemoved*/	
-			document.addEventListener("DOMNodeRemoved", (e) => {
-				
-				var hasClass 	= e.target.classList
-				
-				if(typeof hasClass !== "undefined" && e.target.classList.contains("gx-mask")){
-					
-					if (myThis.loaderType !== "2"){
-						NProgress.done()
-					}
-					
-					if (myThis.loaderType !== "1" && document.querySelector(".loader")){
-						document.querySelector(".loader").remove()
-					}	
-				};
-			});
-
 		/* SCREEN LOADER */
 							
 		/* -- 5 PASSOS DO INÍCIO DA REQUISIÇÃO ATÉ O CARREGAMENTO DA PÁGINA */
