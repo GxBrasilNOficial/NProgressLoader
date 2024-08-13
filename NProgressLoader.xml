@@ -3,44 +3,13 @@
   <KMW>
     <MajorVersion>4</MajorVersion>
     <MinorVersion>0</MinorVersion>
-    <Build>163677</Build>
+    <Build>182098</Build>
   </KMW>
-  <Source kb="edc75a5e-f487-47dc-99b5-5632fc8bf858" username="AVELLFELIPE\felip" UNCPath="\\AVELLFELIPE\E$\Dev\Projetos\Pessoal\Extensibility">
-    <Version guid="9ca4f18d-4877-4921-b7e4-d064c5ae2aa9" name="Extensibility" />
+  <Source kb="7fc383f3-20b2-4f46-828f-52f4adeba4e1" username="AlienwareNeves\FelipeNeves" UNCPath="\\ALIENWARENEVES\D$\Dev\Projetos\Pessoal\THExtensibility">
+    <Version guid="dfa5b24e-a654-4f4c-b3f3-edd8e4a444d8" name="THExtensibility" />
   </Source>
   <Objects>
-    <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-31T15:12:03.0000000Z" checksum="e9842286b5fef061fffafa43573b3147" fullyQualifiedName="nProgressLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" name="nProgressLoader" type="c88fffcd-b6f8-0000-8fec-00b5497e2117" description="n Progress Loader">
-      <Part type="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="a5e6a251-2df0-44d8-adab-1da237574326">
-        <Properties />
-      </Part>
-      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
-        <Properties />
-      </Part>
-      <Properties><Property><Name>PackagedModuleName</Name><Value>nProgressLoader</Value></Property><Property><Name>ModuleVersion</Name><Value>1.0.15</Value></Property><Property><Name>ModuleDescription</Name><Value>- Loader com 2 opções visuais 
-  -&gt; Loader minimalista no topo da tela
-  -&gt; Loader com efeito visual no centro da tela(com vários estilos)
-- Funcionamento respeitando as fases da requisição do genexus
--Refactoring completo do controle</Value></Property><Property><Name>ModuleAuthor</Name><Value>Developer</Value></Property><Property><Name>ModuleLicenseUrl</Name><Value /></Property><Property><Name>ModuleProjectUrl</Name><Value /></Property><Property><Name>ModuleServerUrl</Name><Value /></Property><Property><Name>ModuleTags</Name><Value /></Property><Property><Name>ModuleOwner</Name><Value>Genexus Brasil</Value></Property><Property><Name>ModuleResources</Name><Value /></Property><Property><Name>Name</Name><Value>nProgressLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-    </Object>
-    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:14:16.0000000Z" checksum="d59cee3ac4e692b4fb8bd0a8d5af0a45" fullyQualifiedName="nProgressLoader.dmLoaderType" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="ce054fbc-6720-4a9c-a75c-1db1f51297a3" name="dmLoaderType" type="00972a17-9975-449e-aab1-d26165d51393" description="dm Loader Type" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
-      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
-        <Help>
-          <HelpItem>
-            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
-            <Content />
-          </HelpItem>
-        </Help>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-      </Part>
-      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
-        <Properties />
-      </Part>
-      <Properties><Property><Name>Name</Name><Value>dmLoaderType</Value></Property><Property><Name>Description</Name><Value>dm Loader Type</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>IDEnumDefinedValues</Name><Value>1, PROGRESSBAR, Progress Bar; 2, SCREENLOADER, Screen Loader; 3, AMBOS, Progress Bar &amp; Screen Loader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
-    </Object>
-    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-03T20:12:16.0000000Z" checksum="b6a924152cceee54c5e0c7567bf22abe" fullyQualifiedName="nProgressLoader.sdtNProgressConfigs" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="6b7f44b4-c974-4e2b-9a9a-567461deb508" name="sdtNProgressConfigs" type="447527b5-9210-4523-898b-5dccb17be60a" description="sdt NProgress Configs" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="2023-03-22T14:34:35.0000000Z" lastUpdate="2023-01-03T20:12:16.0000000Z" checksum="b6a924152cceee54c5e0c7567bf22abe" fullyQualifiedName="nProgressLoader.sdtNProgressConfigs" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="6b7f44b4-c974-4e2b-9a9a-567461deb508" name="sdtNProgressConfigs" type="447527b5-9210-4523-898b-5dccb17be60a" description="sdt NProgress Configs" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
       <Part type="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
         <Level Name="sdtNProgressConfigs">
           <LevelInfo guid="9e9f0a40-9453-4104-ad05-9040f98fc908" name="sdtNProgressConfigs" type="a76e9340-bdb9-445d-8f81-cfd4ddd0b0f3" description="sdt NProgress Configs" user="AVELLFELIPE\felip">
@@ -106,7 +75,7 @@
       </Part>
       <Properties><Property><Name>Name</Name><Value>sdtNProgressConfigs</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
     </Object>
-    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-31T15:09:44.0000000Z" checksum="8ab9651c02881a50762300b520cb7311" fullyQualifiedName="nProgressLoader.ucNProgress" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="c17eeef8-587b-43d1-80f3-0346c6779793" name="ucNProgress" type="562f4793-aabe-449f-8821-fc77e550698e" description="uc NProgress" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AlienwareNeves\FelipeNeves" versionDate="2024-04-03T18:26:24.0000000Z" lastUpdate="2024-04-03T13:37:10.0000000Z" checksum="ef5d8b438e83dbf93b9b357550385593" fullyQualifiedName="nProgressLoader.ucNProgress" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="c17eeef8-587b-43d1-80f3-0346c6779793" name="ucNProgress" type="562f4793-aabe-449f-8821-fc77e550698e" description="uc NProgress" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
       <Part type="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
         <Source><![CDATA[
 
@@ -198,7 +167,7 @@
 		position: fixed;
 		top: calc(50% - {{loaderSize}});
 		left: calc(50% - {{loaderSize}});
-		z-index: 1001
+		z-index: 1000;
 	}
 	
 	.loader>div {
@@ -492,7 +461,7 @@
 				window.NProgress = NProgress;
 				this.nprogress = NProgress;
 			}
-		}	
+		}
 	</script>
 	
 	<script name="after" When="AfterShow">
@@ -505,19 +474,24 @@
 		let loaderConfig = myThis.loaderConfig;
 		myThis.loaderSize = loaderConfig.ScreenLoader.loaderSize;
 		myThis.loaderColor = loaderConfig.loaderColor;
-		
-		//NProgress.configure({ showSpinner: loaderConfig.showSpinner });
+	
 		//SETA AS CONFIGURAÇÕES DO NPROGRESS DE ACORDO COM OS VALORES QUE VEM DO SDT DE CONFIGURAÇÕES{sdtNProgressConfigs}
-		if(myThis.loaderType !== "2"){
-			NProgress.settings = {...loaderConfig.ProgressBar}
+		if(myThis.loaderType !== "2"){     
+			NProgress.configure({ barSelector: loaderConfig.ProgressBar.barSelector });
+			NProgress.configure({ easing: loaderConfig.ProgressBar.easing }); 
+			NProgress.configure({ minimum: parseFloat(loaderConfig.ProgressBar.minimum) });
+			NProgress.configure({ parent: loaderConfig.ProgressBar.parent });
+			NProgress.configure({ positionUsing: loaderConfig.ProgressBar.positionUsing });
+			NProgress.configure({ showSpinner: loaderConfig.ProgressBar.showSpinner });
+			NProgress.configure({ speed: loaderConfig.ProgressBar.speed });
+			NProgress.configure({ spinnerSelector: loaderConfig.ProgressBar.spinnerSelector });
+			NProgress.configure({ template: loaderConfig.ProgressBar.template });
+			NProgress.configure({ trickle: loaderConfig.ProgressBar.trickle });
+			NProgress.configure({ trickleSpeed: loaderConfig.ProgressBar.trickleSpeed });
 		};
-		
 		
 		/* SCREEN LOADER */
 		
-
-		
-
 		//começo removendo os listeners
 		if (!myThis.IsPostBack){
 		/*LOADER MODEL*/
@@ -539,32 +513,46 @@
 			gx.spa.deleteObserver("oncontentreplace")
 			gx.spa.deleteObserver("onnavigate")		
 			
-			if(myThis.loaderType !== "1"){
-				/*DOMNodeInserted*/
-				document.addEventListener("DOMNodeInserted", (e) => {
-					
-					var hasClass 	= e.target.classList
-					
-					if(typeof hasClass !== "undefined" && e.target.classList.contains("gx-mask")){
-						if (!document.querySelector(".loader")){
-							e.target.innerHTML = `<div class="loader"> ${myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]}</div>`
-							
-						};
-					};
-
-				});
-			
-				/*DOMNodeRemoved*/	
-				document.addEventListener("DOMNodeRemoved", (e) => {
-					
-					var hasClass 	= e.target.classList
-					if(typeof hasClass !== "undefined" && e.target.classList.contains("gx-mask")){
-						if (document.querySelector(".loader")){					
-							document.querySelector(".loader").remove()
+			/*DOMNodeInserted*/
+			document.addEventListener("DOMNodeInserted", (e) => {
+				
+				var hasClass 	= e.target.classList
+				
+				if(typeof hasClass !== "undefined" && e.target.classList.contains("gx-mask")){
+					if (!document.querySelector(".loader")){
+						if (myThis.loaderType === "1" || myThis.loaderType === "3"){
+							NProgress.start()
 						}
-					};
-				});
-			}
+					
+						if (myThis.loaderType === "2"  || myThis.loaderType === "3"){
+//							let loaderElement = `<div class="loader"> ${myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]}</div>`
+//                			document.body.insertAdjacentHTML('beforeend', loaderElement)					
+							jQuery("body").append(
+								`<div class="loader"> ${
+								myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]
+								}</div>`
+							);
+						}
+					}
+				};
+			});
+		
+			/*DOMNodeRemoved*/	
+			document.addEventListener("DOMNodeRemoved", (e) => {
+				
+				var hasClass 	= e.target.classList
+				
+				if(typeof hasClass !== "undefined" && e.target.classList.contains("gx-mask")){
+					
+					if (myThis.loaderType !== "2"){
+						NProgress.done()
+					}
+					
+					if (myThis.loaderType !== "1" && document.querySelector(".loader")){
+						document.querySelector(".loader").remove()
+					}	
+				};
+			});
 
 		/* SCREEN LOADER */
 							
@@ -574,21 +562,31 @@
 				
 				switch (myThis.loaderType){
 					case "1":
-					//PROGRESSBAR
-					NProgress.start();
-					break;
+						//PROGRESSBAR
+						NProgress.start();
+						break;
 					case "2":
-					//SCREENLOADER
-					if (!document.querySelector(".loader")){
-						document.body.innerHTML += `<div class="loader"> ${myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]}</div>`
-					};
-					break;
+						//SCREENLOADER
+						if (!document.querySelector(".loader")){
+							jQuery("body").append(
+								`<div class="loader"> ${
+								myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]
+								}</div>`
+							);				
+	
+						};
+						break;
 					default:
-					//AMBOS 
-					NProgress.start();
-					if (!document.querySelector(".loader")){
-						document.body.innerHTML += `<div class="loader"> ${myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]}</div>`
-					};
+						//AMBOS 
+						NProgress.start();
+						if (!document.querySelector(".loader")){
+							jQuery("body").append(
+							`<div class="loader"> ${
+								myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]
+							}</div>`
+							);						
+						};
+						break;
 				};
 			}, {single:false});
 		
@@ -625,13 +623,14 @@
 						if (document.querySelector(".loader")){					
 							document.querySelector(".loader").remove()
 						};
-					break;
+						break;
 					default:
 						//AMBOS 
 						myThis.Progress = 1;
 						if (document.querySelector(".loader")){					
 							document.querySelector(".loader").remove()
 						};
+						break;
 				};
 			}, {single:false});
 			
@@ -703,7 +702,38 @@
       </Part>
       <Properties><Property><Name>Name</Name><Value>ucNProgress</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
     </Object>
-    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2023-01-02T17:17:26.0000000Z" checksum="35fb7918713445c58ebdd375cbc88857" fullyQualifiedName="nProgressLoader.nprogress_js" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="edcdc9c7-6585-4541-aa0b-66132d0ec6db" name="nprogress_js" type="1132ac08-290f-4fd1-bd18-64777b7329d1" description="nprogress_js" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+    <Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="AlienwareNeves\FelipeNeves" versionDate="2024-04-03T18:26:24.0000000Z" lastUpdate="2024-08-12T23:25:08.0000000Z" checksum="413be11968edaed7ac7cd90fc2c4f69f" fullyQualifiedName="nProgressLoader" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" name="nProgressLoader" type="c88fffcd-b6f8-0000-8fec-00b5497e2117" description="n Progress Loader">
+      <Part type="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="a5e6a251-2df0-44d8-adab-1da237574326">
+        <Properties />
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>PackagedModuleName</Name><Value>nProgressLoader</Value></Property><Property><Name>ModuleVersion</Name><Value>1.0.28</Value></Property><Property><Name>ModuleDescription</Name><Value>- Loader com 2 opções visuais 
+  -&gt; Loader minimalista no topo da tela
+  -&gt; Loader com efeito visual no centro da tela(com vários estilos)
+- Funcionamento respeitando as fases da requisição do genexus
+-Refactoring completo do controle</Value></Property><Property><Name>ModuleAuthor</Name><Value>Developer</Value></Property><Property><Name>ModuleLicenseUrl</Name><Value /></Property><Property><Name>ModuleProjectUrl</Name><Value /></Property><Property><Name>ModuleServerUrl</Name><Value /></Property><Property><Name>ModuleTags</Name><Value /></Property><Property><Name>ModuleOwner</Name><Value>Genexus Brasil</Value></Property><Property><Name>ModuleResources</Name><Value /></Property><Property><Name>Name</Name><Value>nProgressLoader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="2023-03-22T14:34:35.0000000Z" lastUpdate="2023-01-03T20:14:16.0000000Z" checksum="d59cee3ac4e692b4fb8bd0a8d5af0a45" fullyQualifiedName="nProgressLoader.dmLoaderType" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="ce054fbc-6720-4a9c-a75c-1db1f51297a3" name="dmLoaderType" type="00972a17-9975-449e-aab1-d26165d51393" description="dm Loader Type" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-Portuguese</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>dmLoaderType</Value></Property><Property><Name>Description</Name><Value>dm Loader Type</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property><Property><Name>IDEnumDefinedValues</Name><Value>1, PROGRESSBAR, Progress Bar; 2, SCREENLOADER, Screen Loader; 3, AMBOS, Progress Bar &amp; Screen Loader</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" user="AVELLFELIPE\felip" versionDate="2023-03-22T14:34:35.0000000Z" lastUpdate="2023-01-02T17:17:26.0000000Z" checksum="35fb7918713445c58ebdd375cbc88857" fullyQualifiedName="nProgressLoader.nprogress_js" moduleGuid="82b8d30c-e1be-4879-b73f-9dbdffdc386d" guid="edcdc9c7-6585-4541-aa0b-66132d0ec6db" name="nprogress_js" type="1132ac08-290f-4fd1-bd18-64777b7329d1" description="nprogress_js" parent="nProgressLoader" parentType="c88fffcd-b6f8-0000-8fec-00b5497e2117">
       <Part type="9b6155f9-f286-4ed5-bd15-67672e8ea320">
         <Data><base64Binary>LyogTlByb2dyZXNzLCAoYykgMjAxMywgMjAxNCBSaWNvIFN0YS4gQ3J1eiAtIGh0dHA6Ly9yaWNvc3RhY3J1ei5jb20vbnByb2dyZXNzCiAqIEBsaWNlbnNlIE1JVCAqLwooZnVuY3Rpb24obix0KXt0eXBlb2YgZGVmaW5lPT0iZnVuY3Rpb24iJiZkZWZpbmUuYW1kP2RlZmluZSh0KTp0eXBlb2YgZXhwb3J0cz09Im9iamVjdCI/bW9kdWxlLmV4cG9ydHM9dCgpOm4uTlByb2dyZXNzPXQoKX0pKHRoaXMsZnVuY3Rpb24oKXtmdW5jdGlvbiB1KG4sdCxpKXtyZXR1cm4gbjx0P3Q6bj5pP2k6bn1mdW5jdGlvbiByKG4pe3JldHVybigtMStuKSoxMDB9ZnVuY3Rpb24gbChuLGksdSl7dmFyIGY7cmV0dXJuIGY9dC5wb3NpdGlvblVzaW5nPT09InRyYW5zbGF0ZTNkIj97dHJhbnNmb3JtOiJ0cmFuc2xhdGUzZCgiK3IobikrIiUsMCwwKSJ9OnQucG9zaXRpb25Vc2luZz09PSJ0cmFuc2xhdGUiP3t0cmFuc2Zvcm06InRyYW5zbGF0ZSgiK3IobikrIiUsMCkifTp7Im1hcmdpbi1sZWZ0IjpyKG4pKyIlIn0sZi50cmFuc2l0aW9uPSJhbGwgIitpKyJtcyAiK3UsZn1mdW5jdGlvbiBlKG4sdCl7dmFyIGk9dHlwZW9mIG49PSJzdHJpbmciP246ZihuKTtyZXR1cm4gaS5pbmRleE9mKCIgIit0KyIgIik+PTB9ZnVuY3Rpb24gbyhuLHQpe3ZhciBpPWYobikscj1pK3Q7ZShpLHQpfHwobi5jbGFzc05hbWU9ci5zdWJzdHJpbmcoMSkpfWZ1bmN0aW9uIHMobix0KXt2YXIgcj1mKG4pLGk7ZShuLHQpJiYoaT1yLnJlcGxhY2UoIiAiK3QrIiAiLCIgIiksbi5jbGFzc05hbWU9aS5zdWJzdHJpbmcoMSxpLmxlbmd0aC0xKSl9ZnVuY3Rpb24gZihuKXtyZXR1cm4oIiAiKyhuLmNsYXNzTmFtZXx8IiIpKyIgIikucmVwbGFjZSgvXHMrL2dpLCIgIil9ZnVuY3Rpb24gaChuKXtuJiZuLnBhcmVudE5vZGUmJm4ucGFyZW50Tm9kZS5yZW1vdmVDaGlsZChuKX12YXIgbj17fSx0LGMsaTtyZXR1cm4gbi52ZXJzaW9uPSIwLjIuMCIsdD1uLnNldHRpbmdzPXttaW5pbXVtOi4wOCxlYXNpbmc6ImVhc2UiLHBvc2l0aW9uVXNpbmc6IiIsc3BlZWQ6MjAwLHRyaWNrbGU6ITAsdHJpY2tsZVJhdGU6LjAyLHRyaWNrbGVTcGVlZDo4MDAsc2hvd1NwaW5uZXI6ITAsYmFyU2VsZWN0b3I6J1tyb2xlPSJiYXIiXScsc3Bpbm5lclNlbGVjdG9yOidbcm9sZT0ic3Bpbm5lciJdJyxwYXJlbnQ6ImJvZHkiLHRlbXBsYXRlOic8ZGl2IGNsYXNzPSJiYXIiIHJvbGU9ImJhciI+PGRpdiBjbGFzcz0icGVnIj48XC9kaXY+PFwvZGl2PjxkaXYgY2xhc3M9InNwaW5uZXIiIHJvbGU9InNwaW5uZXIiPjxkaXYgY2xhc3M9InNwaW5uZXItaWNvbiI+PFwvZGl2PjxcL2Rpdj4nfSxuLmNvbmZpZ3VyZT1mdW5jdGlvbihuKXt2YXIgaSxyO2ZvcihpIGluIG4pcj1uW2ldLHIhPT11bmRlZmluZWQmJm4uaGFzT3duUHJvcGVydHkoaSkmJih0W2ldPXIpO3JldHVybiB0aGlzfSxuLnN0YXR1cz1udWxsLG4uc2V0PWZ1bmN0aW9uKHIpe3ZhciBvPW4uaXNTdGFydGVkKCk7cj11KHIsdC5taW5pbXVtLDEpO24uc3RhdHVzPXI9PT0xP251bGw6cjt2YXIgZj1uLnJlbmRlcighbykscz1mLnF1ZXJ5U2VsZWN0b3IodC5iYXJTZWxlY3RvciksZT10LnNwZWVkLGg9dC5lYXNpbmc7cmV0dXJuIGYub2Zmc2V0V2lkdGgsYyhmdW5jdGlvbih1KXt0LnBvc2l0aW9uVXNpbmc9PT0iIiYmKHQucG9zaXRpb25Vc2luZz1uLmdldFBvc2l0aW9uaW5nQ1NTKCkpO2kocyxsKHIsZSxoKSk7cj09PTE/KGkoZix7dHJhbnNpdGlvbjoibm9uZSIsb3BhY2l0eToxfSksZi5vZmZzZXRXaWR0aCxzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7aShmLHt0cmFuc2l0aW9uOiJhbGwgIitlKyJtcyBsaW5lYXIiLG9wYWNpdHk6MH0pO3NldFRpbWVvdXQoZnVuY3Rpb24oKXtuLnJlbW92ZSgpO3UoKX0sZSl9LGUpKTpzZXRUaW1lb3V0KHUsZSl9KSx0aGlzfSxuLmlzU3RhcnRlZD1mdW5jdGlvbigpe3JldHVybiB0eXBlb2Ygbi5zdGF0dXM9PSJudW1iZXIifSxuLnN0YXJ0PWZ1bmN0aW9uKCl7bi5zdGF0dXN8fG4uc2V0KDApO3ZhciBpPWZ1bmN0aW9uKCl7c2V0VGltZW91dChmdW5jdGlvbigpe24uc3RhdHVzJiYobi50cmlja2xlKCksaSgpKX0sdC50cmlja2xlU3BlZWQpfTtyZXR1cm4gdC50cmlja2xlJiZpKCksdGhpc30sbi5kb25lPWZ1bmN0aW9uKHQpe3JldHVybiF0JiYhbi5zdGF0dXM/dGhpczpuLmluYyguMysuNSpNYXRoLnJhbmRvbSgpKS5zZXQoMSl9LG4uaW5jPWZ1bmN0aW9uKHQpe3ZhciBpPW4uc3RhdHVzO3JldHVybiBpPyh0eXBlb2YgdCE9Im51bWJlciImJih0PSgxLWkpKnUoTWF0aC5yYW5kb20oKSppLC4xLC45NSkpLGk9dShpK3QsMCwuOTk0KSxuLnNldChpKSk6bi5zdGFydCgpfSxuLnRyaWNrbGU9ZnVuY3Rpb24oKXtyZXR1cm4gbi5pbmMoTWF0aC5yYW5kb20oKSp0LnRyaWNrbGVSYXRlKX0sZnVuY3Rpb24oKXt2YXIgaT0wLHQ9MDtuLnByb21pc2U9ZnVuY3Rpb24ocil7cmV0dXJuIXJ8fHIuc3RhdGUoKT09PSJyZXNvbHZlZCI/dGhpczoodD09PTAmJm4uc3RhcnQoKSxpKyssdCsrLHIuYWx3YXlzKGZ1bmN0aW9uKCl7dC0tO3Q9PT0wPyhpPTAsbi5kb25lKCkpOm4uc2V0KChpLXQpL2kpfSksdGhpcyl9fSgpLG4ucmVuZGVyPWZ1bmN0aW9uKHUpe3ZhciBmO2lmKG4uaXNSZW5kZXJlZCgpKXJldHVybiBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgibnByb2dyZXNzIik7byhkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQsIm5wcm9ncmVzcy1idXN5Iik7Zj1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJkaXYiKTtmLmlkPSJucHJvZ3Jlc3MiO2YuaW5uZXJIVE1MPXQudGVtcGxhdGU7dmFyIGM9Zi5xdWVyeVNlbGVjdG9yKHQuYmFyU2VsZWN0b3IpLGw9dT8iLTEwMCI6cihuLnN0YXR1c3x8MCksZT1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKHQucGFyZW50KSxzO3JldHVybiBpKGMse3RyYW5zaXRpb246ImFsbCAwIGxpbmVhciIsdHJhbnNmb3JtOiJ0cmFuc2xhdGUzZCgiK2wrIiUsMCwwKSJ9KSx0LnNob3dTcGlubmVyfHwocz1mLnF1ZXJ5U2VsZWN0b3IodC5zcGlubmVyU2VsZWN0b3IpLHMmJmgocykpLGUhPWRvY3VtZW50LmJvZHkmJm8oZSwibnByb2dyZXNzLWN1c3RvbS1wYXJlbnQiKSxlLmFwcGVuZENoaWxkKGYpLGZ9LG4ucmVtb3ZlPWZ1bmN0aW9uKCl7cyhkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQsIm5wcm9ncmVzcy1idXN5Iik7cyhkb2N1bWVudC5xdWVyeVNlbGVjdG9yKHQucGFyZW50KSwibnByb2dyZXNzLWN1c3RvbS1wYXJlbnQiKTt2YXIgbj1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgibnByb2dyZXNzIik7biYmaChuKX0sbi5pc1JlbmRlcmVkPWZ1bmN0aW9uKCl7cmV0dXJuISFkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgibnByb2dyZXNzIil9LG4uZ2V0UG9zaXRpb25pbmdDU1M9ZnVuY3Rpb24oKXt2YXIgbj1kb2N1bWVudC5ib2R5LnN0eWxlLHQ9IldlYmtpdFRyYW5zZm9ybSJpbiBuPyJXZWJraXQiOiJNb3pUcmFuc2Zvcm0iaW4gbj8iTW96IjoibXNUcmFuc2Zvcm0iaW4gbj8ibXMiOiJPVHJhbnNmb3JtImluIG4/Ik8iOiIiO3JldHVybiB0KyJQZXJzcGVjdGl2ZSJpbiBuPyJ0cmFuc2xhdGUzZCI6dCsiVHJhbnNmb3JtImluIG4/InRyYW5zbGF0ZSI6Im1hcmdpbiJ9LGM9ZnVuY3Rpb24oKXtmdW5jdGlvbiB0KCl7dmFyIGk9bi5zaGlmdCgpO2kmJmkodCl9dmFyIG49W107cmV0dXJuIGZ1bmN0aW9uKGkpe24ucHVzaChpKTtuLmxlbmd0aD09MSYmdCgpfX0oKSxpPWZ1bmN0aW9uKCl7ZnVuY3Rpb24gcihuKXtyZXR1cm4gbi5yZXBsYWNlKC9eLW1zLS8sIm1zLSIpLnJlcGxhY2UoLy0oW1xkYS16XSkvZ2ksZnVuY3Rpb24obix0KXtyZXR1cm4gdC50b1VwcGVyQ2FzZSgpfSl9ZnVuY3Rpb24gdShuKXt2YXIgdT1kb2N1bWVudC5ib2R5LnN0eWxlLGksZixyO2lmKG4gaW4gdSlyZXR1cm4gbjtmb3IoaT10Lmxlbmd0aCxmPW4uY2hhckF0KDApLnRvVXBwZXJDYXNlKCkrbi5zbGljZSgxKTtpLS07KWlmKHI9dFtpXStmLHIgaW4gdSlyZXR1cm4gcjtyZXR1cm4gbn1mdW5jdGlvbiBmKG4pe3JldHVybiBuPXIobiksaVtuXXx8KGlbbl09dShuKSl9ZnVuY3Rpb24gbihuLHQsaSl7dD1mKHQpO24uc3R5bGVbdF09aX12YXIgdD1bIldlYmtpdCIsIk8iLCJNb3oiLCJtcyJdLGk9e307cmV0dXJuIGZ1bmN0aW9uKHQsaSl7dmFyIHU9YXJndW1lbnRzLHIsZjtpZih1Lmxlbmd0aD09Milmb3IociBpbiBpKWY9aVtyXSxmIT09dW5kZWZpbmVkJiZpLmhhc093blByb3BlcnR5KHIpJiZuKHQscixmKTtlbHNlIG4odCx1WzFdLHVbMl0pfX0oKSxufSk=</base64Binary></Data>
         <Properties><Property><Name>FileName</Name><Value>nprogress.js</Value></Property><Property><Name>FileExtension</Name><Value>.js</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
@@ -715,29 +745,14 @@
     </Object>
   </Objects>
   <Dependencies>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="c88fffcd-b6f8-0000-8fec-00b5497e2117">
-      <Properties Name="Module" PackageName="Artech.Architecture" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
-      <Properties Name="Content" PackageName="Artech.Architecture" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="a5e6a251-2df0-44d8-adab-1da237574326">
-      <Properties Name="Diagram" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="babf62c5-0111-49e9-a1c3-cc004d90900a">
-      <Properties Name="Documentation" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="00972a17-9975-449e-aab1-d26165d51393">
-      <Properties Name="Domain" PackageName="GenexusBL" />
-    </Reference>
-    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ad3ca970-19d0-44e1-a7b7-db05556e820c">
-      <Properties Name="Help" PackageName="GenexusBL" />
-    </Reference>
     <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="447527b5-9210-4523-898b-5dccb17be60a">
       <Properties Name="Structured Data Type" PackageName="GenexusBL" />
     </Reference>
     <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="5c2aa9da-8fc4-4b6b-ae02-8db4fa48976a">
       <Properties Name="Structure" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="babf62c5-0111-49e9-a1c3-cc004d90900a">
+      <Properties Name="Documentation" PackageName="GenexusBL" />
     </Reference>
     <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="562f4793-aabe-449f-8821-fc77e550698e">
       <Properties Name="User Control" PackageName="GenexusBL" />
@@ -748,6 +763,21 @@
     <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="8e9e4a7c-a4d3-4c36-8e8e-fb6702402f63">
       <Properties Name="Properties" PackageName="GenexusBL" />
     </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="c88fffcd-b6f8-0000-8fec-00b5497e2117">
+      <Properties Name="Module" PackageName="Artech.Architecture" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ed1b7b1c-2aaf-46eb-9ec5-db348f6fa3fc">
+      <Properties Name="Content" PackageName="Artech.Architecture" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="a5e6a251-2df0-44d8-adab-1da237574326">
+      <Properties Name="Diagram" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="00972a17-9975-449e-aab1-d26165d51393">
+      <Properties Name="Domain" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+      <Properties Name="Help" PackageName="GenexusBL" />
+    </Reference>
     <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="1132ac08-290f-4fd1-bd18-64777b7329d1">
       <Properties Name="File" PackageName="GenexusBL" />
     </Reference>
@@ -756,11 +786,11 @@
     </Reference>
   </Dependencies>
   <ObjectsIdentityMapping>
-    <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="Root Module" parent="">
-      <Guid>afa47377-41d5-4ae8-9755-6f53150aa361</Guid>
-    </ObjectIdentity>
     <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Attribute" parent="">
       <Guid>7f83da99-bc71-5230-bf17-0352ce27c129</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="Root Module" parent="">
+      <Guid>afa47377-41d5-4ae8-9755-6f53150aa361</Guid>
     </ObjectIdentity>
   </ObjectsIdentityMapping>
 </ExportFile>
