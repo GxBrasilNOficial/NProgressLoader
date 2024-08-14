@@ -7,13 +7,13 @@
 # Implantação #
 
   - Adicione o user control ucNProgress na masterpage.
-  - Na opção loader Type você define qual loader será utilizado(ProgressBar, ScreenLoader ou ambos).
+  - Na opção loader Type você define qual loader será utilizado (ProgressBar, ScreenLoader ou ambos).
   - Na opção loader Config adicione a váriavel baseada no SDT sdtNProgressConfigs.
-  - O sdtNProgressConfigs é dividido em 3 níveis, Configurações Gerais, ProgressBar e Screen Loader(Especificadas nos próximos tópicos).
+  - O sdtNProgressConfigs é dividido em 3 níveis, Configurações Gerais, ProgressBar e Screen Loader (Especificadas nos próximos tópicos).
   - Para fazer alterações específicas nos loaders, alimente o sdtNProgressConfigs como preferir.
 
 
-# Confirações Gerais #
+# Configurações Gerais #
 
   - loaderColor
 	-> Define a cor dos loaders em hexadecimal
