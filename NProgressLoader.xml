@@ -524,7 +524,7 @@
 										NProgress.start();
 									}
 									if (myThis.loaderType === "2" || myThis.loaderType === "3") {
-										jQuery("body").append(
+										jQuery(".gx-mask").append(
 											`<div class="loader"> ${
 												myThis.modelosLoaderMask[loaderConfig.ScreenLoader.loaderStyle]
 											}</div>`
